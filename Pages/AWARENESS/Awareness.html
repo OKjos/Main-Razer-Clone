@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="Awareness.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <section class='background'>
+        <div class="App">
+            <header class="App-header">
+                <div>
+                    <button class='logo-container'>
+                        <img class="logo" src="../../Icons/razer-logo.png" alt="Razer logo"/>
+                    </button>
+                </div>
+                <button class='header-button'>Store</button>
+                <button class='header-button'>PC</button>
+                <button class='header-button'>Console</button>
+                <button class='header-button'>Mobile</button>
+                <button class='header-button'>Lifestyle</button>
+                <button class='header-button'>Services</button>
+                <button class='header-button'>Community</button>
+                <button class='header-button' type="button" onclick="handleSupportClick()">Support</button>
+                <div>
+                    <button class='search-button'>
+                        <img class="search-icon" src="../../Icons/search.png" alt="Search icon" />
+                    </button>
+                    <button class='cart-button'>
+                        <img class='cart-icon' src="../../Icons/cart_icon.png" alt="Cart icon" />
+                    </button>
+                </div>
+            </header>
+            <div class="siteNotification">
+                <h1 class="main">
+                    Join RazerStore Rewards to unlock bonus Razer Silver, reduced minimum spend for free shipping, exclusive perks and more.
+                </h1>
+                <button class="Buy-button">
+                    Join Now <span class="greater-then">&gt;</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <img class="home-img" src="./AwarenessIcons/1920x600-campaign-hero-desktop.webp" alt="Awareness Hero"/>
+        </div>
+    </section>
+    <section class="top-body">
+        <div class="first-body">
+            <h1 class="Shared-header">MORE THAN AWARENESS</h1>
+            <h3 class="Shared-sub">
+                <p>This Breast Cancer Awareness Month, help raise more than awareness for breast cancer. Breast cancer is more than a</p>
+                <p>diagnosis—it is a life-altering event. Join us in supporting NBCF's goal to help those impacted along every step of their</p>
+                <p>journey, from wellness education to survivor support and everything in between.</p>
+                <p>This October, proceeds from the sale of select Razer Quartz gear will be donated to National Breast Cancer Foundation</p>
+                <p>to provide education, encourage screenings, and bring quality, real-time support to all women who need it. Join our</p>
+                <p>cause today.</p>
+            </h3>
+        </div>
+    </section>
+    <section>
+        <div>
+            <img class="razer-collab-img" src="./AwarenessIcons/nbcfpartnership-2023-desktop-logos.jpg" alt="nbcf donations" />
+        </div>
+    </section>
+    <section class="test-background">
+        <section>
+            <div class="second-section">
+                <h1 class="second-header">THIS BREAST CANCER AWARENESS MONTH</h1>
+                <h3 class="second-sub">
+                    <p>From October 1, 2023 to October 31, 2023, 3-5% of gross retail sales from these products will be donated to NBCF to</p>
+                    <p>provide help and inspire hope to those affected by breast cancer through early detection, education, and support</p>
+                    <p>services. This program is valid only in the U.S. and void where prohibited by law. Your purchase is not tax deductible.</p>
+                </h3>
+            </div>
+        </section>
+        <section>
+            <div class="grid-container">
+                <div class="grid-holders">
+                    <img class="grid-img" src="./AwarenessIcons/chair.png">
+                    <div class="text">
+                        <p class="grind-headers">Razer X *A Bathing Ape® Iskur X - Quartz</p>
+                        <p class="grid-sub">Ergonomic Gaming Chair</p>
+                    </div>
+                    <div class="bottom-left">
+                        <p class="grid-price">US$699.00</p>
+                    </div>
+                    <div class="bottom-right">
+                        <button class="bottom-right-buy">BUY</button>
+                      </div>
+                </div>
+                <div class="grid-holders">
+                    <img class="grid-img" src="./AwarenessIcons/headphones2.png">
+                    <img class="rgb-img" src="./AwarenessIcons/razer-chroma-white-icon.png">
+                    <div class="text">
+                        <p class="grind-headers">Razer Kraken Kitty V2 Pro - Quartz</p>
+                        <p class="grid-sub">Wired RGB Headset with Interchangeable Ears</p>
+                    </div>
+                    <div class="bottom-left">
+                        <p class="grid-price">US$199.99</p>
+                    </div>
+                    <div class="bottom-right">
+                        <button class="bottom-right-buy">BUY</button>
+                      </div>                
+                </div>
+                <div class="grid-holders">
+                    <img class="grid-img" src="./AwarenessIcons/headphones.png">
+                    <img class="rgb-img" src="./AwarenessIcons/razer-chroma-white-icon.png">
+                    <div class="text">
+                        <p class="grind-headers">Razer Kraken Kitty V2 BT</p>
+                        <p class="grid-sub">Wireless Bluetooth RGB Headset with Kitty Ears</p>
+                    </div>
+                    <div class="bottom-left">
+                        <p class="grid-price">US$99.99</p>
+                    </div>
+                    <div class="bottom-right">
+                        <button class="bottom-right-buy">BUY</button>
+                    </div> 
+                </div>
+                <div class="grid-holders">
+                    <img class="grid-img" src="./AwarenessIcons/mic.png">
+                    <div class="text">
+                        <p class="grind-headers">Razer Seiren Mini - Quartz</p>
+                        <p class="grid-sub">Ultra-compact Streaming Microphone</p>
+                    </div>
+                    <div class="bottom-left">
+                        <p class="grid-price">US$49.99</p>
+                    </div>
+                    <div class="bottom-right">
+                        <button class="bottom-right-buy">BUY</button>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section class="three-container">
+            <div>
+                <img class="three-symbols" src="./AwarenessIcons/experience-razerstore-icons.webp">
+            </div>
+            <div>
+                <button class="EXP-store">Experience it at all RazerStores 
+                    <span class="greater-then">&gt;</span>
+                </button>
+            </div>
+        </section>
+        <section>
+            <div>
+                <img class="NBCF-img" src="./AwarenessIcons/nbcf-donation-help-women.jpg">
+            </div>
+        </section>
+        <section class="small-grid">
+            <div class="grid-item">
+                <img class="shipping" src="./AwarenessIcons/icon-free-shipping.png">
+                <button class="grid-buttons">Free Shipping Over US$79</button>
+            </div>
+            <div class="grid-item">
+                <img class="money" src="./AwarenessIcons/sw0035-money.svg">
+                <button class="grid-buttons">From 0% APR Financing</button>
+            </div>
+            <div class="grid-item">
+                <img class="" src="./AwarenessIcons/icon-free-return.png">
+                <button class="grid-buttons">14-Day Risk-Free Return</button>
+            </div>
+            <div class="grid-item">
+                <img class="" src="./AwarenessIcons/razerstore-rewards-outlined-circle-icon.svg">
+                <button class="grid-buttons">Be Rewarded As You Shop</button>
+            </div>
+        </section>
+        <div class="image-container">
+            <img class="chroma" src="./AwarenessIcons/chroma-mania-signup-v3.webp">
+            <div class="content-container">
+              <div class="final-text-container">
+                <h1 class="final-header-text">
+                  <p>SIGN UP FOR THE RAZER NEWSLETTER AND</p>
+                  <p>ENJOY US$10 OFF YOUR PURCHASE*.</p>
+                </h1>
+                <h3 class="final-sub-text">*Offer is valid with a minimum purchase of US$99.</h3>
+              </div>
+              <div class="input-container">
+                <input type="text" id="Name" placeholder="Name *">
+                <input type="text" id="Email" placeholder="Email *">
+                <select id="countries">
+                  <option value="">Location/Region *</option>
+                </select>
+                <button class="final-submit-button">Submit</button>
+              </div>
+            </div>
+          </div>
+          
+    </section>
+</body>
+</html>

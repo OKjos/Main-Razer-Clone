@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="Main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Main.js"></script>
+    <title>Document</title>
+</head>
+<body class="flex">
+
+    <!-- Header -->
+    <section class='background'>
+        <div class="App">
+            <header class="App-header">
+                <div>
+                    <button class='logo-container'>
+                        <img class="logo" src="./Icons/razer-logo.png" alt="Razer logo"/>
+                    </button>
+                </div>
+                <button class='header-button'>Store</button>
+                <button class='header-button'>PC</button>
+                <button class='header-button'>Console</button>
+                <button class='header-button'>Mobile</button>
+                <button class='header-button'>Lifestyle</button>
+                <button class='header-button'>Services</button>
+                <button class='header-button'>Community</button>
+                <button class='header-button' type="button" onclick="handleSupportClick()">Support</button>
+                <div>
+                    <button class='search-button'>
+                        <img class="search-icon" src="./Icons/search.png" alt="Search icon" />
+                    </button>
+                    <button class='cart-button'>
+                        <img class='cart-icon' src="./Icons/cart_icon.png" alt="Cart icon" />
+                    </button>
+                </div>
+            </header>
+            <div class="main">
+                <h1 class="siteNotification">
+                    Unleash a new age of technology with an arsenal of cutting-edge innovations that will keep you ahead of the game.
+                    <button class="siteNotification-button">
+                        Shop Now <span class="greater-then">&gt;</span>
+                    </button>
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top 3 -->
+    <section class="body-con">
+        <div class="grid-body-container">
+  
+  
+  
+          <div class="grid-item">
+  
+  
+            <img class="IMG" src="./Icons/razer-blade-16.jpeg" alt="Razer Blade 16" />
+            <div class="text-container">
+              <h2 >NEW RAZER BLADE 16</h2>
+              <h3 >BIGGER. BETTER. STILL THE BEST.</h3>
+                <button class='learn-button'>Learn More <span class="greater-then-symbol">&gt;</span></button>
+                <button class='buy-button'>Buy <span class="greater-then-symbol">&gt;</span></button>
+            </div>
+          </div>
+  
+  
+  
+  
+          <div class="grid-item">
+  
+  
+            <img class="IMG" src="./Icons/stream-controller.jpeg" alt="Stream Controller" />
+            <div class="text-container">
+              <h2>RAZER STREAM CONTROLLER X</h2>
+              <h3>INSTANT CONTROL. INFINITE CREATIVITY.</h3>
+                <button class='learn-button'>Learn More <span class="greater-then-symbol">&gt;</span></button>
+                <button class='buy-button'>Buy <span class="greater-then-symbol">&gt;</span></button>
+            </div>
+          </div>
+  
+  
+  
+  
+  
+          <div class="grid-item">
+  
+  
+            <img class="IMG" src="./Icons/razer-fujin-homepage-desktop2x.webp" alt="Razer Blade 18" />
+            <div class="text-container">
+              <h2 >RAZER FUJIN</h2>
+              <h3 >BREATHABLE. FLEXIBLE. COMFORTABLE.</h3>
+                <button class='learn-button'>Learn More <span class="greater-then-symbol">&gt;</span></button>
+                <button class='buy-button'>Buy <span class="greater-then-symbol">&gt;</span></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- Bottom 6 -->
+    <ul class="grid-container">
+        <li class="single">
+          <img class="new-age" src="./Icons/new-age-campaign.jpeg" alt="New age" />
+          <div>
+            <div>
+              <h2 class="new-age-main">
+              UNLEASH A NEW AGE OF TECHNOLOGY
+              </h2>
+              <h3 class="new-age-sub">
+              EXPERIENCE THE REVOLUTION
+              </h3>
+              <div class="cta-links">
+                <button class="new-age-learn">
+                Learn More <span class="greater-then-symbol">&gt;</span>
+                </button>
+                <button class="new-age-buy">
+                Buy <span class="greater-then-symbol">&gt;</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+        </div>
+        </li>
+        <li class="single">
+          <img class="enki" src="./Icons/more-than-awareness-b-950x580-desktop.webp" alt="Razer Enki" />
+          <div>
+            <div>
+              <h2 class="enki-main">
+              MORE THAN AWARENESS
+              </h2>
+              <h3 class="enki-sub">
+              JOIN OUR CAUSE TODAY
+              </h3>
+              <div class="cta-links">
+                <button class="enki-buy" id="awarenesslearn">
+                Learn More <span class="greater-then-symbol">&gt;</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="single">
+          <img class="razer-blade2" src="./Icons/razercon2023-950x580-desktop.webp" alt="Razer blade2" />
+          <div>
+            <div>
+              <h2 class="blade-15-main">
+              RAZERCON 2023
+              </h2>
+              <h3 class="blade-15-sub">
+              SCORE BONUS RAZER SILVER DURING RAZERCON
+              </h3>
+              <div class="cta-links">
+                <button class="blade-15-learn">
+                Learn More <span class="greater-then-symbol">&gt;</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="single">
+          <img class="razer-basilisk" src="./Icons/razer-basilisk.jpeg" alt="Razer basilisk" />
+          <div>
+            <div>
+              <div>
+                <h2 class="basilisk-main">
+                RAZER BASILISK V3 X HYPERSPEED
+                </h2>
+                <h3 class="basilisk-sub">
+                ADVANCED CUSTOMIZABILITY. UNLEASHED.
+                </h3>
+                <div class="cta-links">
+                  <button class="basilisk-learn">
+                  Learn More <span class="greater-then-symbol">&gt;</span>
+                  </button>
+                  <button class="basilisk-buy">
+                  Buy <span class="greater-then-symbol">&gt;</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="single">
+          <img class="razer-edge" src="./Icons/razer-edge.jpeg" alt="Razer edge" />
+          <div>
+            <div>
+              <div>
+                <h2 class="edge-main">
+                RAZER EDGE
+                </h2>
+                <h3 class="edge-sub">
+                THE ULTIMATE ANDROID GAMING HANDHELD
+                </h3>
+                <div class="cta-links">
+                  <div class="button-hover">
+                    <button class="edge-learn" onClick={handleEdge}>
+                      Learn More <span class="greater-then-symbol">&gt;</span>
+                    </button>
+                    <button class="edge-buy">
+                        Buy <span class="greater-then-symbol">&gt;</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="single">
+          <img class="razer-ornata" src="./Icons/ornata-v3.jpeg" alt="Razer headset" />
+          <div>
+            <div>
+              <h2 class="ornata-main">
+              RAZER ORNATA V3 TENKEYLESS
+              </h2>
+              <h3 class="ornata-sub">
+              SLIM. CLICKY. ERGONOMIC. 
+              </h3>
+              <div class="cta-links">
+                <button class="ornata-learn">
+                Learn More <span class="greater-then-symbol">&gt;</span>
+                </button>
+                <button class="ornata-buy">
+                Buy <span class="greater-then-symbol">&gt;</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-containerNav">
+                <div>
+                    <p class="header-color">Shop</p>
+                    <ul>
+                        <li><a href="https://www.razer.com/razerstores">RazerStores</a></li>
+                        <li><a href="https://www.razer.com/razercafe">RazerCafe</a></li>
+                        <li><a href="https://www.razer.com/razerstores">Store Locator</a></li>
+                        <li><a href="https://www.razer.com/razerstores">Purchase Programs</a></li>
+                        <li><a href="https://www.razer.com/education">Education</a></li>
+                        <li><a href="https://www.razer.com/razerstores">Exclusives</a></li>
+                        <li><a href="https://www.razer.com/store/rewards">RazerStore Rewards</a></li>
+                        <li><a href="https://www.razer.com/razerstores">Newsletter</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="header-color">Explore</p>
+                    <ul>
+                        <li><a href="https://www.razer.com/razerstores">Technology</a></li>
+                        <li><a href="https://www.razer.com/razerstores">Chroma RGB</a></li>
+                        <li><a href="https://www.razer.com/razerstores">Concepts</a></li>
+                        <li><a href="https://www.razer.com/razerstores">Espots</a></li>
+                        <li><a href="https://www.razer.com/razerstores">Collabs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="header-color">Support</p>
+                    <ul>
+                        <li><a href="https://www.razer.com/razerstores">Get Help</a></li>
+                        <li><a href="https://www.razer.com/razerstores">Registration &amp; Warranty</a></li>
+                        <li><a href="https://www.razer.com/razerstore-support">RazerStore Support</a></li>
+                        <li><a href="https://www.razer.com/razerstores">RazerCare</a></li>
+                        <li><a href="https://www.razer.com/razerstores">Manage Razer ID</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCrG4K8-XFEK5FyCz_jVzV-A/videos">Support Videos</a></li>
+                        <li><a href="https://www.razer.com/legal/commitment-to-accessibility">Accessibility Statement</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="header-color">Company</p>
+                    <ul>
+                        <li><a href="https://www.razer.com/razerstores">About Us</a></li>
+                        <li><a href="https://www.razer.com/razerstores">Careers</a></li>
+                        <li><a href="https://www.razer.com/razerstores">Press Room</a></li>
+                        <li><a href="https://www.razer.com/razerstores">zVentures</a></li>
+                        <li><a href="https://www.razer.com/razerstores">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-containerNav-figure">
+                    <h2>FOR GAMERS. BY GAMERS.™</h2>
+                    <div class="media-buttons">
+                        <button class="facebook-button" onclick="window.open('https://www.facebook.com/razer')">
+                            <img class="facebook" src="./Icons/facebook.svg" alt="Facebook Icon">
+                        </button>
+                        <button class="insta-button" onclick="window.open('https://www.instagram.com/razer/')">
+                            <img class="insta" src="./Icons/insta.svg" alt="Insta Icon">
+                        </button>
+                        <button class="twitter-button" onclick="window.open('https://twitter.com/Razer')">
+                            <img class="twitter" src="./Icons/twitter.svg" alt="Twitter Icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="footer-containerCopyright">
+                <p>Copyright © 2021 Razer Inc. All rights reserved.</p>
+                <ul>
+                    <li><a href="https://www.razer.com/razerstores">Site Map</a></li>
+                    <li><a href="https://www.razer.com/razerstores">Legal Terms</a></li>
+                    <li><a href="https://www.razer.com/razerstores">Privacy Policy</a></li>
+                    <li><a href="https://www.razer.com/razerstores">Cookie Policy</a></li>
+                </ul>
+                <div class="unitedStates">
+                    <span>United States</span>
+                    <a href="https://www.razer.com/razerstores">Change location &gt;</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .fit {width: fit-content;}
+
+
+/* Header */
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .content {
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    background-color: rgb(85,85,85);
+    border-bottom: 2px solid green;
+    z-index: 9999 ;
+    width: 100%;
+  }
+  
+  .App-header {
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    width: 100%;
+  }  
+
+  .main {
+    background-color: rgb(85,85,85);
+    line-height: 60px;
+    font-size: 14px;
+    margin-left: 17%; /* 50px gap on the left */
+    font-family: "Roboto", sans-serif;
+  }
+
+  .siteNotification {
+    background-color: rgb(85,85,85);
+    color: white;
+    margin-top: 56px;
+    height: 6.5vh;
+    display: flex;
+    justify-content: space-between; /* Spacing between text and button */
+  }
+  
+  .Buy-button {
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-left: 3px;
+    cursor: pointer;
+    margin-right: 30%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .Buy-button:hover {
+    text-decoration: underline;
+  }
+  
+  .greater-then {
+    color: white;
+    background-color: transparent;
+  }
+  
+  .shop-now-button {
+    color: white;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .shop-now-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .cta-links button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .header-button {
+    background-color: black;
+    border: none;
+    color: rgb(153, 153, 153);
+    width: 60px;
+    cursor: pointer;
+    margin: 0 32px;
+    font-family: 'RazerF5', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .header-button:hover {
+    color: #ffffff;
+  }
+  
+  .logo-container {
+    border: none;
+    background-color: black;
+  }
+  
+  .logo {
+    width: 35px;
+    margin-left: -50px;
+    position: absolute;
+  }
+  
+  .logo:hover {
+    cursor: pointer;
+  }
+  
+  .search-icon:hover {
+    cursor: pointer;
+  }
+  
+  .search-button {
+    background-color: black;
+    border: none;
+  }
+  
+  .search-icon {
+    margin-top: 20px;
+    width: 20px;
+    margin-left: 30px;
+  }
+  
+  .cart-icon {
+    width: 20px;
+    margin-left: 70px;
+  }
+  
+  .cart-button {
+    background-color: black;
+    border: none;
+  }
+  
+  .cart-icon:hover {
+    cursor: pointer;
+  }
+
+
+
+ /* First Image */
+  .home-img {
+    width: 100%;
+  }
+
+
+
+
+  /* First Body */
+  .first-body {
+    text-align: center;
+    color: white;
+    height: 40vh;
+    margin-top: -1%;
+  }
+
+  .top-body {
+    background-color: rgb(255,97,133);
+  }
+
+  .Shared-header {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    background-color: transparent;
+    padding-top: 4%; 
+    margin-bottom: 20px;
+    font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif;
+  }
+  
+  .Shared-sub {
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
+  
+  
+
+
+  /* Second IMG */
+  .razer-collab-img {
+    width: 100%;
+  }
+
+
+  
+  .test-background {
+    background-color: black;
+  }
+
+
+
+    /* Second IMG */
+    .second-section {
+        text-align: center;
+        background-color: black;
+    }
+
+    .second-header {
+        color: rgb(255,97,133) ;
+        font-size: 48px;
+        background-color: transparent;
+        padding-top: 4%; 
+        margin-bottom: 20px;
+        font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif;
+    }
+
+    .second-sub {
+        color: rgb(154,154,154);
+        margin-top: 2%;
+        margin-bottom: 10%;
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+    }
+
+  /* Grid IMGs */
+  .grid-container {
+    display: flex;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px; 
+    padding: 0 300px; 
+    background-color: black; 
+}
+
+.grid-holders {
+    background-color: #0e0e0e; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    height: 500px;
+}
+
+.grid-img {
+    width: 290px;
+    height: 290px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Additional styling for headers and prices */
+.rgb-img {
+  margin-right: 80%;
+  bottom: 30px;
+  position: relative;
+}
+
+.grind-headers {
+    color: white;
+    font-size: large;
+    text-align: start;
+    margin-left: 8%;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.grid-sub {
+  color: rgb(154,154,154);
+  margin-top: 10%;
+  text-align: start;
+  margin-left: 8%;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.grid-price {
+    color: white;
+    position: relative;
+    left: 15%;
+}
+
+.text {
+  flex-grow: 1; 
+}
+
+.bottom-left {
+  align-self: flex-start; 
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.bottom-right {
+  align-self: flex-end;
+  right: 5%; 
+  bottom: 4%;
+  position: relative;
+}
+
+.bottom-right-buy {
+  background-color: #44d62c;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  border: none;
+}
+
+    @media (max-width: 768px) {
+      .grid-container {
+          grid-template-columns: 1fr;
+          gap: 5px; 
+      }
+  }
+
+
+
+      /* Three Symbols */
+      .three-container {
+        text-align: center;
+        margin-top: 2%;
+      }
+
+      .three-symbols {
+
+      }
+
+      .EXP-store {
+        background-color: transparent;
+        border: none;
+        color: rgb(68,214,44);
+        font-size: 18px;
+        margin-top: 1%;
+        font-family: "Roboto", sans-serif;
+        
+      }
+
+      .EXP-store:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .greater-then {
+        color: rgb(0, 190, 0);
+      }
+
+
+      /* Three Symbols */
+      .NBCF-img {
+        margin-top: 5%;
+        width: 100%;
+      }
+
+      .small-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background-color: rgb(17,17,17);
+        margin-top: 2.7%;
+        margin-bottom: 2.7%;
+        width: 100%; 
+        height: 16vh; 
+        align-items: center;
+        justify-content: center; 
+        margin-top: -3px;
+        margin-bottom: 0px;
+    }
+    
+    .grid-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .grid-buttons {
+        background-color: rgb(19, 19, 19);
+        border: none;
+        color: white;
+        position: relative; 
+        right: -3%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+    }
+    
+    .money {
+        width: 40px;
+        height: 40px;
+        vertical-align: middle;
+    }
+      /* Chroma Grid */
+
+      .image-container {
+        position: relative;
+      }
+      
+      .chroma {
+        width: 100%;
+        display: block;
+      }
+      
+      .content-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      .final-text-container {
+        text-align: center;
+      }
+
+      .final-header-text {
+        color: rgb(68,214,44);
+        font-family: 'RazerF5', Arial, Helvetica, sans-serif;
+        font-size: 40px;
+      }
+
+      .final-sub-text {
+        color: rgb(154,154,141);
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        margin-bottom: 5%;
+      }
+      
+      .input-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .input-container input,
+      .input-container select {
+          width: 500px;
+          height: 60px;
+          margin: 10px 0; /* Adjust the vertical margin (top and bottom) */
+          background-color: rgb(17, 17, 17);
+          color: rgb(154, 154, 154);
+          border: 1px solid rgb(154, 154, 154);
+          font-size: 16px;
+          text-indent: 3%;
+      }
+
+      .final-submit-button {
+        background-color: rgb(68,214,44);
+        font-size: 16px;
+        border: none;
+        width: 150px;
+        height: 40px;
+        border-radius: 3px;
+        font-weight: 700  ;
+        margin-top: 10%;
+      }
+      

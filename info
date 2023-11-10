@@ -1,0 +1,23 @@
+Open PowerShell as an Administrator:
+
+
+
+Change Execution Policy:
+Run the following command in the PowerShell window:
+
+
+Set-ExecutionPolicy RemoteSigned
+
+
+
+Run http-server:
+
+http-server
+
+
+
+After you're done using the http-server, you might want to reset the execution policy back to its original state for security reasons 
+
+
+
+Set-ExecutionPolicy Restricted

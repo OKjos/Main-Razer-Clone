@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+/* Header */
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .content {
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    border-bottom: 2px solid green;
+    z-index: 9999 ;
+    width: 100%;
+  }
+  
+  .App-header {
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    width: 100%;
+  }  
+
+  .main {
+    background-color: rgb(19, 19, 19);
+    line-height: 60px;
+    font-size: medium;
+    margin-left: 17%; /* 50px gap on the left */
+  }
+
+  .siteNotification {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    margin-top: 56px;
+    height: 6.5vh;
+    display: flex;
+    justify-content: space-between; /* Spacing between text and button */
+  }
+  
+  .Buy-button {
+    border: none;
+    background-color: rgb(19, 226, 0);
+    color: rgb(0, 0, 0);
+    margin-left: 3px;
+    cursor: pointer;
+    margin-right: 30%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .siteNotification-button:hover {
+    text-decoration: underline;
+  }
+  
+  .greater-then {
+    color: white;
+  }
+  
+  .shop-now-button {
+    color: white;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .shop-now-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .cta-links button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .header-button {
+    background-color: black;
+    border: none;
+    color: rgb(88, 88, 88);
+    font-size: 16px;
+    width: 60px;
+    cursor: pointer;
+    margin: 0 32px;
+  }
+  
+  .header-button:hover {
+    color: #ffffff;
+  }
+  
+  .logo-container {
+    border: none;
+    background-color: black;
+  }
+  
+  .logo {
+    width: 35px;
+    margin-left: -50px;
+    position: absolute;
+  }
+  
+  .logo:hover {
+    cursor: pointer;
+  }
+  
+  .search-icon:hover {
+    cursor: pointer;
+  }
+  
+  .search-button {
+    background-color: black;
+    border: none;
+  }
+  
+  .search-icon {
+    margin-top: 20px;
+    width: 20px;
+    margin-left: 30px;
+  }
+  
+  .cart-icon {
+    width: 20px;
+    margin-left: 70px;
+  }
+  
+  .cart-button {
+    background-color: black;
+    border: none;
+  }
+  
+  .cart-icon:hover {
+    cursor: pointer;
+  }
+
+
+  /* body */
+  
+
+  .top-img {
+    background-color: black;
+  }
+
+  .home-img {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+  /* intro */
+  .content {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 3%;
+  }
+
+  .ribbon {
+    background-color: rgb(201, 171, 0);
+    color: black;
+    width: 10%;
+    margin: 2% auto;
+  }
+
+  .header {
+    color: rgb(0, 211, 0);
+    font-size: 70px;
+    margin-top: 1%;
+  }
+
+
+  .body-fisrt {
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+
+
+
+
+
+
+
+
+  /* Video section */
+  .Edge-video {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .snapdragon {
+    width: 100%;
+  }
+
+  video::-webkit-media-controls {
+    display: none !important;
+}
+
+.video-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+}
+
+.video-section video {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+  /* SnapDragon */
+  .text-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    color: white; 
+    padding: 20px; 
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+  }
+
+  .header-generic {
+    color: rgb(0, 184, 0);
+    font-size: 50px;
+    background-color: transparent;
+    margin-top: 8%;
+  }
+
+  .sub-header {
+    font-size: 30px;
+    background-color: transparent;
+  }
+
+  .norm-text {
+    font-size: 20px;
+    color: gray;
+    background-color: transparent;
+  }
+
+  .smaller-text-disclaimer {
+    color: gray;
+    font-size: 16px;
+    background-color: transparent;
+  }
+
+
+
+
+
+
+
+
+  /* Shared CSS */
+.Shared-header {
+  color: rgb(0, 184, 0);
+  font-size: 50px;
+  background-color: transparent;
+  margin-top: 8%;
+}
+
+.Shared-sub {
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.Shared-ex {
+  color: gray;
+  margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+  /* Verison */
+.verison {
+  text-align: center;
+  position: relative; 
+}
+
+.verison-button {
+  background-color: transparent;
+  border: none;
+  color: green;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute; 
+  top: 70%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+}
+
+.verison-button:hover {
+  text-decoration: underline;
+}
+
+.verison-img {
+  margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+  /* Verison desktop img */
+.verison-desktop-img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+  /* Haptics */
+.haptics {
+  text-align: center;
+}
+
+.edge-haptics {
+  width: 60%; 
+  display: block; 
+  margin: 0 auto; 
+  margin-top: 20px; 
+  margin-bottom: 10%;
+}
+
+
+
+
+
+
+
+
+  /* Edge-3s */
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.edge-3s-container {
+    background: transparent;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    padding: 20px; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.edge-3s-sub {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Shared-3s {
+  background-color: transparent;
+}
