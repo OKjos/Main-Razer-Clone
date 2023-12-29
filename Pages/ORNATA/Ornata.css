@@ -151,3 +151,107 @@
 
 
   /* Start */
+
+  .ornata-desktop {
+    width: 100%;
+  }
+
+  .tenkeyless-header-text {
+    color: white;
+    font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif;    
+    font-size: 24px;
+    margin-top: 2%;
+  }
+
+  .clicky-text {
+    color: rgb(68,214,44);
+    font-size: 42px;
+    font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
+    margin-top: 1%;   
+  }
+
+  .header-sub-text {
+    color: RGB(154, 154, 154);
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 1%;   
+  }
+
+
+  /* RGB IMG */
+
+  .rgb-image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+ /* shared css */
+
+  .header-text {
+    color: RGB(68, 214, 44);
+    font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
+    font-size: 30px;
+    margin-top: 5%;
+  }
+
+  .sub-text {
+    color: white;
+    font-family: "Roboto", sans-serif;
+   font-size: 18px;
+   margin-top: 1%;
+  }
+
+  .header-text-container {
+    text-align: center;
+  }
+
+
+  .discription-text {
+    color: RGB(154, 154, 154);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-top: 1%;
+  }
+
+  /* low-profile, tenkeyless image, keycaps image */
+
+  .shared-image {
+    margin-top: 2%;
+    width: 100%;
+  }
+
+  /* second text grouping */
+
+  .low-profile-text {
+    color: RGB(68, 214, 44);
+    font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
+    font-size: 30px;
+    margin-top: 4%;
+  }
+
+
+  /* fourth text grouping */
+
+  .discription-text {
+    color: RGB(154, 154, 154);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-top: 1%;
+  }
+
+  /* warranty image */
+  .warranty-image {
+    margin-top: 5%;
+  }
+
+
+
+
+
+
+
+
+
+
+
