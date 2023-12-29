@@ -171,7 +171,7 @@
 
   .fujin-flex {
     color: #44D62C;
-    font-size: 45px;
+    font-size: clamp(1rem, 1.9rem + 2vw, 2.8125rem); 
     font-family: "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
     margin-top: 1%;
   }
@@ -272,15 +272,19 @@
 
 
   .img-grid-container {
-    display: grid;
-    grid-template-columns: repeat( 3, 1fr); /*    grid-template-columns: repeat( auto-fit, 3, 1fr); */
-    gap: 20px; /* Spacing between items */
-    max-width: 60%; /* Adjust to your desired width */
-    margin: 5% auto; /* Center the grid horizontally */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    padding: 0 200px; 
+    background-color: black; 
+    justify-content: center;
+    margin-top: 5%;
   }
 
   .image-item {
-    text-align: center;
+    flex: 0 0 20rem;
+    min-height: 300px;
+    align-items: center;
   }
 
 /* Style the images */
@@ -341,18 +345,24 @@
 
   /* Final area */
   .final-section {
-    display: flex; 
-    gap: 20%; 
-    max-width: 990px; 
-    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    padding: 0 200px; 
+    background-color: black; 
+    justify-content: center;
 }
 
   /* flex-wrap: wrap; */
 
 .final-section-img {
-    display: flex;
-    flex-direction: column;
     margin-top: 5%;
+    margin-bottom: 15%;
+
+
+    flex: 0 0 20rem;
+    min-height: 300px;
+    align-items: center;
 }
 
 
@@ -382,161 +392,4 @@
 
 
 
-/* Media Query for screens between 480px and 767px wide */
-@media (min-width: 480px) and (max-width: 767px) {
-  /* Header */
-  .header {
-    width: 100%;
-  }
 
-  /* Top IMG */
-  .home-chair-img {
-    width: 100%;
-  }
-
-  /* RAZER FUJIN IMG */
-  .fujin-title {
-    /* Adjust Razer Fujin title styles for screens between 480px and 767px wide */
-  }
-
-  /* Ultra durable IMG */
-  .ultra-durable-img {
-    /* Adjust Ultra Durable image styles for screens between 480px and 767px wide */
-  }
-
-  /* SYNCHRO-TILT Text */
-  .synchro-text {
-    /* Adjust Synchro-Tilt text styles for screens between 480px and 767px wide */
-  }
-
-  /* Tilt IMG */
-  .tilt-img {
-    /* Adjust Tilt image styles for screens between 480px and 767px wide */
-  }
-
-  /* Adjustable Text */
-  .adjustable-header {
-    /* Adjust Adjustable header styles for screens between 480px and 767px wide */
-  }
-
-  /* Image Grid */
-  .img-grid-container {
-    /* Adjust image grid styles for screens between 480px and 767px wide */
-  }
-
-  /* we've got you covered */
-  .covered-header {
-    /* Adjust "we've got you covered" header styles for screens between 480px and 767px wide */
-  }
-
-  /* Final area */
-  .main-war-text {
-    /* Adjust final section main text styles for screens between 480px and 767px wide */
-  }
-}
-
-/* Media Query for screens between 768px and 1023px wide */
-@media (min-width: 768px) and (max-width: 1023px) {
-  /* Header */
-  .header {
-    /* Adjust header styles for screens between 768px and 1023px wide */
-  }
-
-  /* Top IMG */
-  .home-chair-img {
-    /* Adjust top image styles for screens between 768px and 1023px wide */
-  }
-
-  /* RAZER FUJIN IMG */
-  .fujin-title {
-    /* Adjust Razer Fujin title styles for screens between 768px and 1023px wide */
-  }
-
-  /* Ultra durable IMG */
-  .ultra-durable-img {
-    /* Adjust Ultra Durable image styles for screens between 768px and 1023px wide */
-  }
-
-  /* SYNCHRO-TILT Text */
-  .synchro-text {
-    /* Adjust Synchro-Tilt text styles for screens between 768px and 1023px wide */
-  }
-
-  /* Tilt IMG */
-  .tilt-img {
-    /* Adjust Tilt image styles for screens between 768px and 1023px wide */
-  }
-
-  /* Adjustable Text */
-  .adjustable-header {
-    /* Adjust Adjustable header styles for screens between 768px and 1023px wide */
-  }
-
-  /* Image Grid */
-  .img-grid-container {
-    /* Adjust image grid styles for screens between 768px and 1023px wide */
-  }
-
-  /* we've got you covered */
-  .covered-header {
-    /* Adjust "we've got you covered" header styles for screens between 768px and 1023px wide */
-  }
-
-  /* Final area */
-  .main-war-text {
-    /* Adjust final section main text styles for screens between 768px and 1023px wide */
-  }
-}
-
-/* Media Query for screens larger than 1023px wide */
-@media (min-width: 1024px) {
-  /* Header */
-  .header {
-    /* Adjust header styles for screens larger than 1023px wide */
-  }
-
-  /* Top IMG */
-  .home-chair-img {
-    /* Adjust top image styles for screens larger than 1023px wide */
-  }
-
-  /* RAZER FUJIN IMG */
-  .fujin-title {
-    /* Adjust Razer Fujin title styles for screens larger than 1023px wide */
-  }
-
-  /* Ultra durable IMG */
-  .ultra-durable-img {
-    /* Adjust Ultra Durable image styles for screens larger than 1023px wide */
-  }
-
-  /* SYNCHRO-TILT Text */
-  .synchro-text {
-    /* Adjust Synchro-Tilt text styles for screens larger than 1023px wide */
-  }
-
-  /* Tilt IMG */
-  .tilt-img {
-    /* Adjust Tilt image styles for screens larger than 1023px wide */
-  }
-
-  /* Adjustable Text */
-  .adjustable-header {
-    /* Adjust Adjustable header styles for screens larger than 1023px wide */
-  }
-
-  /* Image Grid */
-  .img-grid-container {
-    /* Adjust image grid styles for screens larger than 1023px wide */
-  }
-
-  /* we've got you covered */
-  .covered-header {
-    /* Adjust "we've got you covered" header styles for screens larger than 1023px wide */
-  }
-
-  /* Final area */
-  .main-war-text {
-    /* Adjust final section main text styles for screens larger than 1023px wide */
-  }
-}

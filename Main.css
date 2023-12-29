@@ -25,7 +25,8 @@
     z-index: 9999 ;
     width: 100%;
   }
-  
+
+
   .App-header {
     display: flex;
     overflow: auto;
@@ -164,14 +165,16 @@
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: clamp(0.625rem, 0.875rem + 10vw ,1.25rem);
   }
+
   
-  .text-container h2,
+  
+  /* .text-container h2,
   .text-container h3 {
     margin: 0;
   }
-  
+   */
   .learn-button {
     background-color: transparent;
     border: none;

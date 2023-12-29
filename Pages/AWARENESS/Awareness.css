@@ -176,11 +176,10 @@
 
   .Shared-header {
     color: rgb(255, 255, 255);
-    font-size: 72px;
     background-color: transparent;
     padding-top: 4%; 
     margin-bottom: 20px;
-    font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif;
+    font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif;    
   }
   
   .Shared-sub {
@@ -188,9 +187,13 @@
     margin-top: 2%;
     margin-bottom: 2%;
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
   }
   
+
+  .Shared-sub,
+  .second-sub {
+  font-size: clamp(1rem, 2vw, 1.4rem); 
+}
   
 
 
@@ -215,7 +218,7 @@
 
     .second-header {
         color: rgb(255,97,133) ;
-        font-size: 48px;
+        font-size: clamp(6px, 10vw, 20px);
         background-color: transparent;
         padding-top: 4%; 
         margin-bottom: 20px;
@@ -233,26 +236,24 @@
   /* Grid IMGs */
   .grid-container {
     display: flex;
-    align-items: center;
-    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
     gap: 15px; 
-    padding: 0 300px; 
+    padding: 0 200px; 
     background-color: black; 
+    justify-content: center;
 }
+
 
 .grid-holders {
     background-color: #0e0e0e; 
-    display: flex;
-    flex-direction: column;
+    flex: 0 0 20rem;
+    min-height: 300px;
     align-items: center;
-    text-align: center;
-    width: 60%;
-    height: 500px;
 }
-
+ 
 .grid-img {
-    width: 290px;
-    height: 290px;
+    max-width: 20rem;
+    min-height: 300px;
     height: auto;
     display: flex;
     justify-content: center;
@@ -315,13 +316,7 @@
   border: none;
 }
 
-    @media (max-width: 768px) {
-      .grid-container {
-          grid-template-columns: 1fr;
-          gap: 5px; 
-      }
-  }
-
+sdfsdfsdfsdfdsf
 
 
       /* Three Symbols */
@@ -330,9 +325,7 @@
         margin-top: 2%;
       }
 
-      .three-symbols {
 
-      }
 
       .EXP-store {
         background-color: transparent;
@@ -401,19 +394,20 @@
 
       .image-container {
         position: relative;
+        width: 100%; 
+        height: 700px; 
+        background-image: url('./AwarenessIcons/chroma-mania-signup-v3.webp');
+        background-size: cover; 
+        background-position: center;
       }
       
-      .chroma {
-        width: 100%;
-        display: block;
-      }
+
       
       .content-container {
         position: absolute;
-        top: 50%;
+        top: 50%; 
         left: 50%;
         transform: translate(-50%, -50%);
-        text-align: center;
       }
       
       .final-text-container {
@@ -424,6 +418,8 @@
         color: rgb(68,214,44);
         font-family: 'RazerF5', Arial, Helvetica, sans-serif;
         font-size: 40px;
+        top: 5%;
+        font-size: clamp(1rem, 2vw, 1.8rem);
       }
 
       .final-sub-text {
@@ -441,7 +437,8 @@
 
       .input-container input,
       .input-container select {
-          width: 500px;
+          width: 80%;
+          max-width: 100%;
           height: 60px;
           margin: 10px 0; /* Adjust the vertical margin (top and bottom) */
           background-color: rgb(17, 17, 17);
@@ -453,10 +450,10 @@
 
       .final-submit-button {
         background-color: rgb(68,214,44);
-        font-size: 16px;
+        font-size: clamp(0.875rem, 1rem + 10vw ,1.25rem);
         border: none;
-        width: 150px;
-        height: 40px;
+        max-width: 300px;
+        min-height: 2.5rem;
         border-radius: 3px;
         font-weight: 700  ;
         margin-top: 10%;

@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+
+/* Header */
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .content {
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    border-bottom: 2px solid green;
+    z-index: 9999 ;
+    width: 100%;
+  }
+  
+  .App-header {
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    width: 100%;
+  }  
+
+  .main {
+    background-color: rgb(85,85,85);
+    line-height: 60px;
+    font-size: medium;
+    margin-left: 17%; /* 50px gap on the left */
+  }
+
+  .siteNotification {
+    background-color: rgb(85,85,85);
+    color: white;
+    margin-top: 56px;
+    height: 6.5vh;
+    display: flex;
+    justify-content: space-between; /* Spacing between text and button */
+  }
+  
+  .Buy-button {
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-left: 3px;
+    cursor: pointer;
+    margin-right: 30%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .Buy-button:hover {
+    text-decoration: underline;
+  }
+  
+  .greater-then {
+    color: white;
+    background-color: transparent;
+  }
+  
+  .shop-now-button {
+    color: white;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .shop-now-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .cta-links button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .header-button {
+    background-color: black;
+    border: none;
+    color: rgb(88, 88, 88);
+    font-size: 16px;
+    width: 60px;
+    cursor: pointer;
+    margin: 0 32px;
+  }
+  
+  .header-button:hover {
+    color: #ffffff;
+  }
+  
+  .logo-container {
+    border: none;
+    background-color: black;
+  }
+  
+  .logo {
+    width: 35px;
+    margin-left: -50px;
+    position: absolute;
+  }
+  
+  .logo:hover {
+    cursor: pointer;
+  }
+  
+  .search-icon:hover {
+    cursor: pointer;
+  }
+  
+  .search-button {
+    background-color: black;
+    border: none;
+  }
+  
+  .search-icon {
+    margin-top: 20px;
+    width: 20px;
+    margin-left: 30px;
+  }
+  
+  .cart-icon {
+    width: 20px;
+    margin-left: 70px;
+  }
+  
+  .cart-button {
+    background-color: black;
+    border: none;
+  }
+  
+  .cart-icon:hover {
+    cursor: pointer;
+  }
+
+
+
+  /* Start */
