@@ -258,6 +258,7 @@
   position: absolute;
   left: 5%; 
   bottom: 5%;
+  background-color: transparent;
 }
 
 .bottom-right {
@@ -293,6 +294,7 @@
     background-image: url('./NewageIcons/chroma-mania-signup-v3.webp');
     background-size: cover; 
     background-position: center;
+    
   }
       
 
@@ -302,10 +304,12 @@
     top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: transparent;
   }
       
   .final-text-container {
     text-align: center;
+    background-color: transparent;
   }
 
   .final-header-text {
@@ -314,6 +318,7 @@
     font-size: 40px;
     top: 5%;
     font-size: clamp(1rem, 2vw, 1.8rem);
+    background-color: transparent;
   }
 
   .final-sub-text {
@@ -321,12 +326,14 @@
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     margin-bottom: 5%;
+    background-color: transparent;
   }
       
   .input-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: transparent;
   }
 
   .input-container input,
@@ -347,12 +354,28 @@
     font-size: clamp(0.875rem, 1rem + 10vw ,1.25rem);
     border: none;
     max-width: 300px;
+    width: 100px;
     min-height: 2.5rem;
     border-radius: 3px;
-    font-weight: 700  ;
+    font-weight: 700;
     margin-top: 10%;
   }
-      
+
+  .final-submit-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+    background-color: transparent;
+    font-weight: 700;
+  }
+
+  .error-container {
+    background-color: transparent;
+  }
 
 
 
@@ -383,3 +406,27 @@
       margin-top: 2%;
       width: 100%;
   }
+
+
+
+  /* small learn more buttons/view more */
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh; 
+}
+
+  .more-buttons {
+    color: RGB(68, 214, 44);
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+  .more-buttons:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
