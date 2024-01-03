@@ -161,7 +161,7 @@
 
 
 
-
+  
 
 
 
@@ -176,30 +176,25 @@
   .ribbon {
     background-color: rgb(201, 171, 0);
     color: black;
-    width: 10%;
+    width: 13%;
     margin: 2% auto;
+
   }
 
-  .header {
-    color: rgb(0, 211, 0);
-    font-size: 70px;
-    margin-top: 1%;
+  .raze-site {
+    background-color: rgb(201, 171, 0);
   }
-
-
-  .body-fisrt {
-    margin-top: 2%;
-    margin-bottom: 5%;
-  }
-
-
-
-
-
-
 
 
   /* Video section */
+
+  .video-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+  }
+
   .Edge-video {
     width: 100%;
     height: 100vh;
@@ -213,26 +208,14 @@
     display: none !important;
 }
 
-.video-section {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end; 
-}
-
 .video-section video {
   width: 100%;
   height: auto;
 }
 
 
-
-
-
-
-
-
   /* SnapDragon */
+
   .text-content {
     position: absolute;
     bottom: 0;
@@ -245,21 +228,8 @@
     width: 100%;
   }
 
-  .header-generic {
-    color: rgb(0, 184, 0);
-    font-size: 50px;
-    background-color: transparent;
-    margin-top: 8%;
-  }
-
   .sub-header {
     font-size: 30px;
-    background-color: transparent;
-  }
-
-  .norm-text {
-    font-size: 20px;
-    color: gray;
     background-color: transparent;
   }
 
@@ -270,39 +240,8 @@
   }
 
 
-
-
-
-
-
-
-  /* Shared CSS */
-.Shared-header {
-  color: rgb(0, 184, 0);
-  font-size: 50px;
-  background-color: transparent;
-  margin-top: 8%;
-}
-
-.Shared-sub {
-  color: white;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-.Shared-ex {
-  color: gray;
-  margin-bottom: 5%;
-}
-
-
-
-
-
-
-
-
   /* Verison */
+
 .verison {
   text-align: center;
   position: relative; 
@@ -329,25 +268,8 @@
 }
 
 
-
-
-
-
-
-
-  /* Verison desktop img */
-.verison-desktop-img {
-  width: 100%;
-}
-
-
-
-
-
-
-
-
   /* Haptics */
+
 .haptics {
   text-align: center;
 }
@@ -361,12 +283,6 @@
 }
 
 
-
-
-
-
-
-
   /* Edge-3s */
   section {
     display: flex;
@@ -375,12 +291,12 @@
     position: relative;
 }
 
-.video-wrapper {
+  .video-wrapper {
     position: relative;
     width: 100%;
-}
+  }
 
-.edge-3s-container {
+  .edge-3s-container {
     background: transparent;
     color: white;
     box-sizing: border-box;
@@ -390,12 +306,164 @@
     position: absolute;
     bottom: 0;
     left: 0;
-}
+  }
 
-.edge-3s-sub {
-  background-color: rgba(0, 0, 0, 0);
-}
+  .edge-3s {
+    width: 100%;
+  }
 
-.Shared-3s {
+  .test-3s {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+  }
+
+  .exp-container {
+    text-align: center;
+  }
+
+  .exp-learn-more {
+    background-color: transparent;
+    border: none;
+    color: RGB(68, 214, 44);
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 5%;
+  }
+
+  .exp-learn-more:hover {
+    text-decoration: underline;
+  }
+
+  .edge-features {
+    max-width: 100%;
+    margin-top: 5%;
+  }
+  
+
+  /* Shared CSS */
+
+.header-text {
+  color: RGB(68, 214, 44);
+  font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
+  font-size: 30px;
+  margin-top: 5%;
   background-color: transparent;
+}
+  
+.header-text-container {
+  text-align: center;
+}
+
+.discription-text {
+  color: RGB(154, 154, 154);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-top: 1%;
+  background-color: transparent;
+
+}
+
+.dynamic-text {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  margin-top: 1%;
+  background-color: transparent;
+}
+
+.Shared-sub {
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* bottom area */
+
+.console-types {
+  text-align: center;
+}
+
+.types-text {
+  color: RGB(68, 214, 44);
+  font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
+  font-size: 60px;
+  margin-top: 2%;
+  background-color: transparent;
+}
+
+.and-text {
+  color: RGB(154, 154, 154);
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  margin-top: 1%;
+  background-color: transparent;
+}
+
+.final-text {
+  text-align: center;
+  color: RGB(154, 154, 154);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-top: 1%;
+  background-color: transparent;
+}
+
+
+.small-text-disclaimer {
+  color: gray;
+  font-size: 16px;
+  background-color: transparent;
+  margin-top: 1%;
+}
+
+
+/* powered area */
+
+.powered-container {
+  margin-top: 5%;
+  text-align: center;
+}
+
+
+.store-container {
+  margin-top: 5%;
+}
+
+.edge-app-img {
+  width: 100%;
+}
+
+/* virtual area */
+
+.virtual-container {
+  text-align: center;
+}
+
+.header-text-last {
+  color: RGB(68, 214, 44);
+  font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
+  font-size: 30px;
+  margin-top: 5%;
+  background-color: transparent;
+}
+
+.discription-text-last {
+  color: RGB(154, 154, 154);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-top: 4%;
+  background-color: transparent;
+}
+
+.small-text-disclaimer-last {
+  color: gray;
+  font-size: 16px;
+  background-color: transparent;
+  margin-top: 5%;
+}
+
+.virtual-desktop-img {
+  margin-top: 2%;
+  width: 100%;
 }
