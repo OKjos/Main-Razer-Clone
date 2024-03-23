@@ -201,315 +201,53 @@
 
     /* Bottom 6 */
     .single {
-        display: flex;
-        color: white;
-        text-align: center;
-        position: relative;
-        top: 5px;
+      position: relative;
+      color: white;
+      text-align: center;
+      top: 5px;
+      max-width: 1200px;
     }
-    
+  
     .grid-container {
-        background-color: rgb(71, 71, 71);
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-        margin: 0 auto;
-        padding: 15px 0;
+      background-color: rgb(71, 71, 71);
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      margin: 0 auto;
+      padding: 15px 0;
+
+    }
+
+    .main {
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .header-name {
+      margin-top: 45%;
+      cursor: pointer;
+    }
+
+    .header-sub {
+      margin-top: 5%;
+      cursor: pointer;
+    }
+
+    .learn, .buy {
+      margin-top: 5%;
+      cursor: pointer;
+    }
+
+    .bottom-images {
+      width: 100%;
+      cursor: pointer;
     }
     
-    img {
-        cursor: pointer;
-    }
-    
-    
-    .new-age-main {
-        position: absolute;
-        font-size: 40px;
-        left: 50%;
-        top: 80px;
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
-        font-family: Roboto, sans-serif;
-        cursor: pointer;
-    }
-      
-    .new-age-sub {
-        position: absolute;
-        font-size: 20px;
-        font-weight: 1;
-        left: 50%;
-        top: 120px;
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
-        font-family: "Open Sans", sans-serif;
-        cursor: pointer;
-    }
-      
-    .new-age-learn {
-        color: white;
-        position: absolute;
-        left: 35%;
-        top: 150px;
-        font-size: 20px;
-        background-color: transparent;
-        border: none;
-      }
-      
-    .new-age-buy {
-        color: white;
-        position: absolute;
-        left: 55%;
-        top: 150px;
-        font-size: 20px;
-        background-color: transparent;
-        border: none;
-    }
-      
-    .enki-main {
-        position: absolute;
-        font-size: 40px;
-        left: 50%;
-        top: 80px;
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
-        font-family: Roboto, sans-serif;
-        cursor: pointer;
-    }
-      
-    .enki-sub {
-        position: absolute;
-        font-size: 20px;
-        font-weight: 1;
-        left: 50%;
-        top: 120px;
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
-        font-family: "Open Sans", sans-serif;
-        cursor: pointer;
-    }
-      
-    .enki-learn {
-        color: white;
-        position: absolute;
-        left: 35%;
-        top: 150px;
-        font-size: 20px;
-        background-color: transparent;
-        border: none;
-    }
-      
-    .enki-buy {
-        color: white;
-        position: absolute;
-        left: 55%;
-        top: 150px;
-        font-size: 20px;
-        background-color: transparent;
-        border: none;
-    }
-      
-    .blade-15-main {
-        position: absolute;
-        font-size: 40px;
-        left: 50%;
-        top: 80px;
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
-        font-family: Roboto, sans-serif;
-        cursor: pointer;
-    }
-      
-    .blade-15-sub {
-        position: absolute;
-        font-size: 20px;
-        font-weight: 1;
-        left: 50%;
-        top: 120px;
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
-        font-family: "Open Sans", sans-serif;
-        cursor: pointer;
-    }
-      
-    .blade-15-learn {
-        color: white;
-        position: absolute;
-        left: 35%;
-        top: 150px;
-        font-size: 20px;
-        background-color: transparent;
-        border: none;
-    }
-      
-    .blade-15-buy {
-        color: white;
-        position: absolute;
-        left: 55%;
-        top: 150px;
-        font-size: 20px;
-        background-color: transparent;
-        border: none;
-    }
-      
-    .basilisk-main {
-        position: absolute;
-        font-size: 40px;
-        left: 50%;
-        top: 80px;
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
-        font-family: Roboto, sans-serif;
-        cursor: pointer;
-    }
-      
-    .basilisk-sub {
-        position: absolute;
-        font-size: 20px;
-        font-weight: 1;
-        left: 50%;
-        top: 120px;
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
-        font-family: "Open Sans", sans-serif;
-        cursor: pointer;
-    }
-      
-    .basilisk-learn {
-        color: white;
-        position: absolute;
-        left: 35%;
-        top: 150px;
-        font-size: 20px;
-        background-color: transparent;
-        border: none;
-    }
-      
-    .basilisk-buy {
-        color: white;
-        position: absolute;
-        left: 55%;
-        top: 150px;
-        font-size: 20px;
-        background-color: transparent;
-        border: none;
-    }
-      
-    .edge-main {
-        position: absolute;
-        font-size: 40px;
-        left: 50%;
-        top: 80px;
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
-        font-family: Roboto, sans-serif;
-        cursor: pointer;
-    }
-      
-    .edge-sub {
-        position: absolute;
-        font-size: 20px;
-        font-weight: 1;
-        left: 50%;
-        top: 120px;
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
-        font-family: "Open Sans", sans-serif;
-        cursor: pointer;
-    }
-      
-    .edge-learn {
-        color: white;
-        position: absolute;
-        left: 40%;
-        top: 150px;
-        font-size: 20px;
-        background-color: transparent;
-        border: none;
-    }
-      
-    .edge-buy {
-        color: white;
-        position: absolute;
-        left: 58%;
-        top: 150px;
-        font-size: 20px;
-        background-color: transparent;
-        border: none;
-    }
-      
-      
-    .ornata-main {
-        position: absolute;
-        font-size: 40px;
-        font-weight: 0;
-        left: 50%;
-        top: 80px;
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
-        font-family: Arial, sans-serif;
-        cursor: pointer;
-    }
-      
-    .ornata-sub {
-        position: absolute;
-        font-size: 20px;
-        font-weight: 300;
-        left: 50%;
-        top: 120px;
-        transform: translate(-50%, -50%);
-        white-space: nowrap;
-        font-family: "Open Sans", sans-serif;
-        cursor: pointer;
-    }
-      
-    .ornata-learn {
-        color: white;
-        position: absolute;
-        left: 35%;
-        top: 150px;
-        font-size: 20px;
-        background-color: transparent;
-        border: none;
-    }
-      
-      
-    .ornata-buy {
-        color: white;
-        position: absolute;
-        left: 55%;
-        top: 150px;
-        font-size: 20px;
-        background-color: transparent;
-        border: none;
-    }
-    
-    .greater-then-symbol {
-        color: rgb(0, 190, 0);
-    }
-      
-    
-    img {
-        max-width: 100%;
-        height: auto;
-      }
-      
-    
-      p {
-        font-size: 16px;
-        line-height: 1.5;
-      }
-      
-      @media (max-width: 767px) {
-        img {
-          width: 100%;
-        }
-    
-        p {
-          font-size: 14px;
-          line-height: 1.3;
-        }
-      }
-      
+
+
+
 
     /* Footer */
     .footer {

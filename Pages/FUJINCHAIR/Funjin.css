@@ -271,6 +271,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .img-grid-container {
     display: flex;
     flex-wrap: wrap;
@@ -323,6 +342,27 @@
     font-family: "Roboto", sans-serif;
     font-size: 18px;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
   /* we've got you covered */
   .covered-container {

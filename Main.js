@@ -1,6 +1,6 @@
 //Razer Blade 16
 document.addEventListener('DOMContentLoaded', function() {
-    var RazerBladeLearn = document.getElementById("RazerBladeLearn");
+    let RazerBladeLearn = document.getElementById("RazerBladeLearn");
 
     if (RazerBladeLearn) {
         RazerBladeLearn.addEventListener('click', function() {
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //StreamCon
 document.addEventListener('DOMContentLoaded', function() {
-    var StreamConLearn = document.getElementById("StreamConLearn");
+    let StreamConLearn = document.getElementById("StreamConLearn");
 
     if (StreamConLearn) {
         StreamConLearn.addEventListener('click', function() {
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //Fujin
 document.addEventListener('DOMContentLoaded', function() {
-    var Fujinlearn = document.getElementById("Fujinlearn");
+    let Fujinlearn = document.getElementById("Fujinlearn");
 
     if (Fujinlearn) {
         Fujinlearn.addEventListener('click', function() {
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //Awareness
 document.addEventListener('DOMContentLoaded', function() {
-    var awarenesslearn = document.getElementById("awarenesslearn");
+    let awarenesslearn = document.getElementById("awarenesslearn");
 
     if (awarenesslearn) {
         awarenesslearn.addEventListener('click', function() {
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //Newage
 document.addEventListener('DOMContentLoaded', function() {
-    var NewAgeLearn = document.getElementById("NewAgeLearn");
+    let NewAgeLearn = document.getElementById("NewAgeLearn");
 
     if (NewAgeLearn) {
         NewAgeLearn.addEventListener('click', function() {
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //RazerCon
 document.addEventListener('DOMContentLoaded', function() {
-    var RazerConLearn = document.getElementById("RazerConLearn");
+    let RazerConLearn = document.getElementById("RazerConLearn");
 
     if (RazerConLearn) {
         RazerConLearn.addEventListener('click', function() {
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //RazerBasiliskLearn
 document.addEventListener('DOMContentLoaded', function() {
-    var RazerBasiliskLearn = document.getElementById("RazerBasiliskLearn");
+    let RazerBasiliskLearn = document.getElementById("RazerBasiliskLearn");
 
     if (RazerBasiliskLearn) {
         RazerBasiliskLearn.addEventListener('click', function() {
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //RazerEdgeLearn
 document.addEventListener('DOMContentLoaded', function() {
-    var RazerEdgeLearn = document.getElementById("RazerEdgeLearn");
+    let RazerEdgeLearn = document.getElementById("RazerEdgeLearn");
 
     if (RazerEdgeLearn) {
         RazerEdgeLearn.addEventListener('click', function() {
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //OrnataLearn
 document.addEventListener('DOMContentLoaded', function() {
-    var OrnataLearn = document.getElementById("OrnataLearn");
+    let OrnataLearn = document.getElementById("OrnataLearn");
 
     if (OrnataLearn) {
         OrnataLearn.addEventListener('click', function() {
