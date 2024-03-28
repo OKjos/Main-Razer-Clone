@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="Main.js"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body class="flex">
 
@@ -28,10 +30,14 @@
                 <button class='header-button' type="button" onclick="handleSupportClick()">Support</button>
                 <div class="search-button-container">
                     <button class='search-button'>
-                        <img class="search-icon" src="./Icons/search.png" alt="Search icon" />
+                      <span class="material-symbols-outlined">
+                        search
+                        </span>
                     </button>
                     <button class='cart-button'>
-                        <img class='cart-icon' src="./Icons/cart_icon.png" alt="Cart icon" />
+                      <span class="material-symbols-outlined">
+                        shopping_cart
+                        </span>
                     </button>
                 </div>
             </header>
@@ -47,161 +53,209 @@
     </section>
 
     <!-- Top 3 -->
-    <section class="body-con">
-        <div class="top-grid-container">
-  
-  
-  
-          <div class="grid-item">
-  
-  
-            <img class="IMG" src="./Icons/razer-blade-16.jpeg" alt="Razer Blade 16" />
-            <div class="text-container">
-              <h2 >NEW RAZER BLADE 16</h2>
-              <h3 >BIGGER. BETTER. STILL THE BEST.</h3>
-                <button class='learn-button' id="RazerBladeLearn">Learn More <span class="greater-then-symbol">&gt;</span></button>
-                <button class='buy-button'>Buy <span class="greater-then-symbol">&gt;</span></button>
-            </div>
-          </div>
-  
-  
-  
-  
-          <div class="grid-item">
-  
-  
-            <img class="IMG" src="./Icons/stream-controller.jpeg" alt="Stream Controller" />
-            <div class="text-container">
-              <h2>RAZER STREAM CONTROLLER X</h2>
-              <h3>INSTANT CONTROL. INFINITE CREATIVITY.</h3>
-                <button class='learn-button' id="StreamConLearn">Learn More <span class="greater-then-symbol">&gt;</span></button>
-                <button class='buy-button'>Buy <span class="greater-then-symbol">&gt;</span></button>
-            </div>
-          </div>
-  
-  
-  
-  
-  
-          <div class="grid-item">
-  
-  
-            <img class="IMG" src="./Icons/razer-fujin-homepage-desktop2x.webp" alt="Razer Blade 18" />
-            <div class="text-container">
-              <h2 >RAZER FUJIN</h2>
-              <h3 >BREATHABLE. FLEXIBLE. COMFORTABLE.</h3>
-                <button class='learn-button' id="Fujinlearn">Learn More <span class="greater-then-symbol">&gt;</span></button>
-                <button class='buy-button'>Buy <span class="greater-then-symbol">&gt;</span></button>
+    <section class="top-three-container">
+      <div class="grid-highlights">
+        <div class="top-single">
+          <div class="top-main">
+            <div class="top-image-container">
+              <picture>
+                <img class="IMG" src="./Icons/razer-blade-16.jpeg" alt="Razer Blade 16">
+              </picture>
+              <div class="top-bzone">
+                <div class="button-container">
+                  <div class="top-text">
+                    <span class="header">NEW RAZER BLADE 16</span>
+                    <span class="dis-text">BIGGER. BETTER. STILL THE BEST.</span>
+                  </div>
+                  <div class="button-links">
+                    <a class="learn_more">Learn More <span class="greater-then-symbol">&gt;</span></a>
+                    <a class="learn_more">Buy <span class="greater-then-symbol">&gt;</span></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+      <div class="grid-highlights">
+        <div class="top-single">
+          <div class="top-main">
+            <div class="top-image-container">
+              <picture>
+                <img class="IMG" src="./Icons/stream-controller.jpeg" alt="Stream Controller" >
+              </picture>
+              <div class="top-bzone">
+                <div class="button-container">
+                  <div class="top-text">
+                    <span class="header">RAZER STREAM CONTROLLER X</span>
+                    <span class="dis-text">INSTANT CONTROL. INFINITE CREATIVITY.</span>
+                  </div>
+                  <div class="button-links">
+                    <a class="learn_more">Learn More <span class="greater-then-symbol">&gt;</span></a>
+                    <a class="learn_more">Buy <span class="greater-then-symbol">&gt;</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-highlights">
+        <div class="top-single">
+          <div class="top-main">
+            <div class="top-image-container">
+              <picture>
+                <img class="IMG" src="./Icons/razer-fujin-homepage-desktop2x.webp" alt="Razer Blade 18">
+              </picture>
+              <div class="top-bzone">
+                <div class="button-container">
+                  <div class="top-text">
+                    <span class="header">RAZER FUJIN</span>
+                    <span class="dis-text">BREATHABLE. FLEXIBLE. COMFORTABLE.</span>
+                  </div>
+                  <div class="button-links">
+                    <a class="learn_more">Learn More <span class="greater-then-symbol">&gt;</span></a>
+                    <a class="learn_more">Buy <span class="greater-then-symbol">&gt;</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     <!-- Bottom 6 -->
-    <section class="grid-container bottom-grid-container">
-      <div class="single">
-        <div class="main">
-          <h2 class="header-name">
-            UNLEASH A NEW AGE OF TECHNOLOGY
-          </h2>
-          <h3 class="header-sub">
-            EXPERIENCE THE REVOLUTION
-          </h3>
-          <button class="learn" id="NewAgeLearn">
-            Learn More <span class="greater-then-symbol">&gt;</span>
-          </button>
-          <button class="buy">
-            Buy <span class="greater-then-symbol">&gt;</span>
-          </button>
-        </div>
-        <img class="bottom-images" src="./Icons/new-age-campaign.jpeg" alt="New age" />
-      </div>
-
-      <div class="single">
-        <div class="main">
-          <h2 class="header-name">
-            MORE THAN AWARENESS
-          </h2>
-          <h3 class="header-sub">
-            JOIN OUR CAUSE TODAY
-          </h3>
-          <button class="buy" id="awarenesslearn">
-            Learn More <span class="greater-then-symbol">&gt;</span>
-          </button>
-        </div>
-        <img class="bottom-images" src="./Icons/more-than-awareness-b-950x580-desktop.webp" alt="Razer Enki" />
-      </div >
-
-      <div class="single">
-        <div class="main">
-          <h2 class="header-name">
-            RAZERCON 2023
-          </h2>
-          <h3 class="header-sub">
-            SCORE BONUS RAZER SILVER DURING RAZERCON
-          </h3>
-          <button class="learn" id="RazerConLearn">
-            Learn More <span class="greater-then-symbol">&gt;</span>
-          </button>
-        </div>
-        <img class="bottom-images" src="./Icons/razercon2023-950x580-desktop.webp" alt="Razer blade2" />
-      </div>
-
-      <div class="single">
-        <div class="main">
-          <h2 class="header-name">
-            RAZER BASILISK V3 X HYPERSPEED
-          </h2>
-          <h3 class="header-sub">
-            ADVANCED CUSTOMIZABILITY. UNLEASHED.
-          </h3>
-          <button class="learn" id="RazerBasiliskLearn">
-            Learn More <span class="greater-then-symbol">&gt;</span>
-          </button>
-          <button class="buy">
-            Buy <span class="greater-then-symbol">&gt;</span>
-          </button>
-        </div>
-        <img class="bottom-images" src="./Icons/razer-basilisk.jpeg" alt="Razer basilisk" />
-      </div>
-
-      <div class="single">
-        <div class="main">
-          <h2 class="header-name">
-            RAZER EDGE
-          </h2>
-          <h3 class="header-sub">
-            THE ULTIMATE ANDROID GAMING HANDHELD
-          </h3>
-          <button class="learn" id="RazerEdgeLearn">
-            Learn More <span class="greater-then-symbol">&gt;</span>
-          </button>
-          <button class="buy">
-              Buy <span class="greater-then-symbol">&gt;</span>
-          </button>
-        </div>
-        <img class="bottom-images" src="./Icons/razer-edge.jpeg" alt="Razer edge" />
-      </div>
-
-      <div class="single">
-        <div class="main">
-          <h2 class="header-name">
-            RAZER ORNATA V3 TENKEYLESS
-          </h2>
-          <h3 class="header-sub">
-            SLIM. CLICKY. ERGONOMIC. 
-          </h3>
-          <button class="learn" id="OrnataLearn">
-            Learn More <span class="greater-then-symbol">&gt;</span>
-          </button>
-          <button class="buy">
-            Buy <span class="greater-then-symbol">&gt;</span>
-          </button>
-        </div>
-        <img class="bottom-images" src="./Icons/ornata-v3.jpeg" alt="Razer headset" />
-      </div>
-    </section>
+      <section class="grid-container bottom-grid-container">
+        <ul class="highlights grid-2x3">
+          <li class="single">
+              <div class="main">
+                  <div class="image-container">
+                      <picture class="picture">
+                          <img class="IMG" src="Icons/new-age-campaign.jpeg">
+                      </picture>
+                      <div class="bzone">
+                          <div class="cta-container">
+                              <div class="text">
+                                  <span class="heading">UNLEASH A NEW AGE OF TECHNOLOGY</span>
+                                  <span class="regular-text">EXPERIENCE THE REVOLUTION</span>
+                              </div>
+                              <div class="cta-links">
+                                  <a class="learn_more">Learn More</a>
+                                  <a class="learn_more">Buy</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </li>
+          <li class="single">
+              <div class="main">
+                  <div class="image-container">
+                      <picture class="picture">
+                          <img class="IMG" src="./Icons/more-than-awareness-b-950x580-desktop.webp">
+                      </picture>
+                      <div class="bzone">
+                          <div class="cta-container">
+                              <div class="text">
+                                  <span class="heading">MORE THAN AWARENESS</span>
+                                  <span class="regular-text">JOIN OUR CAUSE TODAY</span>
+                              </div>
+                              <div class="cta-links">
+                                  <a class="learn_more">Learn More</a>
+                                  <a class="learn_more">Buy</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </li>
+          <li class="single">
+              <div class="main">
+                  <div class="image-container">
+                      <picture class="picture">
+                          <img class="IMG" src="./Icons/razercon2023-950x580-desktop.webp">
+                      </picture>
+                      <div class="bzone">
+                          <div class="cta-container">
+                              <div class="text">
+                                  <span class="heading">RAZERCON 2023</span>
+                                  <span class="regular-text">SCORE BONUS RAZER SILVER DURING RAZERCON</span>
+                              </div>
+                              <div class="cta-links">
+                                  <a class="learn_more">Learn More</a>
+                                  <a class="learn_more">Buy</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </li>
+          <li class="single">
+              <div class="main">
+                  <div class="image-container">
+                      <picture class="picture">
+                          <img class="IMG" src="./Icons/razer-basilisk.jpeg">
+                      </picture>
+                      <div class="bzone">
+                          <div class="cta-container">
+                              <div class="text">
+                                  <span class="heading">RAZER BASILISK V3 X HYPERSPEED</span>
+                                  <span class="regular-text">ADVANCED CUSTOMIZABILITY. UNLEASHED.</span>
+                              </div>
+                              <div class="cta-links">
+                                  <a class="learn_more">Learn More</a>
+                                  <a class="learn_more">Buy</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </li>
+          <li class="single">
+              <div class="main">
+                  <div class="image-container">
+                      <picture class="picture">
+                          <img class="IMG" src="./Icons/razer-edge.jpeg">
+                      </picture>
+                      <div class="bzone">
+                          <div class="cta-container">
+                              <div class="text">
+                                  <span class="heading">RAZER EDGE</span>
+                                  <span class="regular-text">THE ULTIMATE ANDROID GAMING HANDHELD</span>
+                              </div>
+                              <div class="cta-links">
+                                  <a class="learn_more">Learn More</a>
+                                  <a class="learn_more">Buy</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </li>
+          <li class="single">
+              <div class="main">
+                  <div class="image-container">
+                      <picture class="picture">
+                          <img class="IMG" src="./Icons/ornata-v3.jpeg">
+                      </picture>
+                      <div class="bzone">
+                          <div class="cta-container">
+                              <div class="text">
+                                  <span class="heading">RAZER ORNATA V3 TENKEYLESS</span>
+                                  <span class="regular-text">SLIM. CLICKY. ERGONOMIC.</span>
+                              </div>
+                              <div class="cta-links">
+                                  <a class="learn_more">Learn More</a>
+                                  <a class="learn_more">Buy</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </li>
+      </section> 
 
 
 
