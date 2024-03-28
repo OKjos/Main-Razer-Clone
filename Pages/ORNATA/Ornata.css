@@ -1,302 +1,303 @@
 * {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-  }
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
 
 /* Header */
 
 .App {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .content {
-    overflow-x: hidden;
-    position: relative;
-  }
-  
-  header {
-    position: fixed;
-    top: 0;
-    background-color: black;
-    border-bottom: 2px solid green;
-    z-index: 9999 ;
-    width: 100%;
-  }
-  
-  .App-header {
-    display: flex;
-    overflow: auto;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    height: 60px;
-    width: 100%;
-  }  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
 
-  .main {
-    background-color: rgb(85,85,85);
-    line-height: 60px;
-    font-size: medium;
-    margin-left: 17%; /* 50px gap on the left */
-  }
+.content {
+  overflow-x: hidden;
+  position: relative;
+}
 
-  .siteNotification {
-    background-color: rgb(85,85,85);
-    color: white;
-    margin-top: 56px;
-    height: 6.5vh;
-    display: flex;
-    justify-content: space-between; /* Spacing between text and button */
-  }
+header {
+  position: fixed;
+  top: 0;
+  background-color: black;
+  border-bottom: 2px solid green;
+  z-index: 9999 ;
+  width: 100%;
+}
+
+.App-header {
+  display: flex;
+  overflow: auto;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  height: 60px;
+  width: 100%;
+}  
+
+.main {
+  background-color: rgb(85,85,85);
+  line-height: 60px;
+  font-size: medium;
+  margin-left: 17%; /* 50px gap on the left */
+}
+
+.siteNotification {
+  background-color: rgb(85,85,85);
+  color: white;
+  margin-top: 56px;
+  height: 6.5vh;
+  display: flex;
+  justify-content: space-between; /* Spacing between text and button */
+}
+
+.Buy-button {
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  margin-left: 3px;
+  cursor: pointer;
+  margin-right: 30%;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+}
   
-  .Buy-button {
-    background-color: transparent;
-    border: none;
-    color: rgb(255, 255, 255);
-    margin-left: 3px;
-    cursor: pointer;
-    margin-right: 30%;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 8px;
-  }
+.Buy-button:hover {
+  text-decoration: underline;
+}
+
+.greater-then {
+  color: white;
+  background-color: transparent;
+}
+
+.shop-now-button {
+  color: white;
+  background-color: transparent;
+  border: none;
+}
   
-  .Buy-button:hover {
-    text-decoration: underline;
-  }
+.shop-now-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cta-links button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header-button {
+  background-color: black;
+  border: none;
+  color: rgb(88, 88, 88);
+  font-size: 16px;
+  width: 60px;
+  cursor: pointer;
+  margin: 0 32px;
+}
   
-  .greater-then {
-    color: white;
-    background-color: transparent;
-  }
+.header-button:hover {
+  color: #ffffff;
+}
+
+.logo-container {
+  border: none;
+  background-color: black;
+}
+
+.logo {
+  width: 35px;
+  margin-left: -50px;
+  position: absolute;
+}
   
-  .shop-now-button {
-    color: white;
-    background-color: transparent;
-    border: none;
-  }
+.logo:hover {
+  cursor: pointer;
+}
+
+.search-icon:hover {
+  cursor: pointer;
+}
+
+.search-button {
+  background-color: black;
+  border: none;
+}
+
+.search-icon {
+  margin-top: 20px;
+  width: 20px;
+  margin-left: 30px;
+}
   
-  .shop-now-button:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
-  .cta-links button:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
-  .header-button {
-    background-color: black;
-    border: none;
-    color: rgb(88, 88, 88);
-    font-size: 16px;
-    width: 60px;
-    cursor: pointer;
-    margin: 0 32px;
-  }
-  
-  .header-button:hover {
-    color: #ffffff;
-  }
-  
-  .logo-container {
-    border: none;
-    background-color: black;
-  }
-  
-  .logo {
-    width: 35px;
-    margin-left: -50px;
-    position: absolute;
-  }
-  
-  .logo:hover {
-    cursor: pointer;
-  }
-  
-  .search-icon:hover {
-    cursor: pointer;
-  }
-  
-  .search-button {
-    background-color: black;
-    border: none;
-  }
-  
-  .search-icon {
-    margin-top: 20px;
-    width: 20px;
-    margin-left: 30px;
-  }
-  
-  .cart-icon {
-    width: 20px;
-    margin-left: 70px;
-  }
-  
-  .cart-button {
-    background-color: black;
-    border: none;
-  }
-  
-  .cart-icon:hover {
-    cursor: pointer;
-  }
+.cart-icon {
+  width: 20px;
+  margin-left: 70px;
+}
+
+.cart-button {
+  background-color: black;
+  border: none;
+}
+
+.cart-icon:hover {
+  cursor: pointer;
+}
 
 
 
   /* Start */
 
-  .ornata-desktop {
-    width: 100%;
-  }
+.ornata-desktop {
+  width: 100%;
+}
 
-  .tenkeyless-header-text {
-    color: white;
-    font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif;    
-    font-size: 24px;
-    margin-top: 2%;
-  }
+.tenkeyless-header-text {
+  color: white;
+  font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif;    
+  font-size: 24px;
+  margin-top: 2%;
+}
 
-  .clicky-text {
-    color: rgb(68,214,44);
-    font-size: 42px;
-    font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
-    margin-top: 1%;   
-  }
+.clicky-text {
+  color: rgb(68,214,44);
+  font-size: 42px;
+  font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
+  margin-top: 1%;   
+}
 
-  .header-sub-text {
-    color: RGB(154, 154, 154);
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    margin-top: 1%;   
-  }
+.header-sub-text {
+  color: RGB(154, 154, 154);
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 1%;   
+}
 
 
   /* RGB IMG */
 
-  .rgb-image-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-  }
+.rgb-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
 
  /* shared css */
 
-  .header-text {
-    color: RGB(68, 214, 44);
-    font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
-    font-size: 30px;
-    margin-top: 5%;
-  }
+.header-text {
+  color: RGB(68, 214, 44);
+  font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
+  font-size: 30px;
+  margin-top: 5%;
+}
 
-  .sub-text {
-    color: white;
-    font-family: "Roboto", sans-serif;
-   font-size: 18px;
-   margin-top: 1%;
-  }
+.sub-text {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-top: 1%;
+}
 
-  .header-text-container {
-    text-align: center;
-  }
-
-
-  .discription-text {
-    color: RGB(154, 154, 154);
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    margin-top: 1%;
-  }
-
-  /* low-profile, tenkeyless image, keycaps image */
-
-  .shared-image {
-    margin-top: 2%;
-    width: 100%;
-  }
-
-  /* second text grouping */
-
-  .low-profile-text {
-    color: RGB(68, 214, 44);
-    font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
-    font-size: 30px;
-    margin-top: 4%;
-  }
+.header-text-container {
+  text-align: center;
+}
 
 
-  /* fourth text grouping */
+.discription-text {
+  color: RGB(154, 154, 154);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-top: 1%;
+}
 
-  .discription-text {
-    color: RGB(154, 154, 154);
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    margin-top: 1%;
-  }
+/* low-profile, tenkeyless image, keycaps image */
 
-  /* warranty image */
+.shared-image {
+  margin-top: 2%;
+  width: 100%;
+}
+
+/* second text grouping */
+
+.low-profile-text {
+  color: RGB(68, 214, 44);
+  font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
+  font-size: 30px;
+  margin-top: 4%;
+}
+
+
+/* fourth text grouping */
+
+.discription-text {
+  color: RGB(154, 154, 154);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-top: 1%;
+}
+
+
+/* warranty image */
 
 .warranty-container {
-    position: relative;
-    margin-top: 1%;
+  position: relative;
+  margin-top: 1%;
 }
 
 .warranty-image {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .warranty-IMG {
-    width: 100%;
-    object-fit: cover;
+  width: 100%;
+  object-fit: cover;
 }
 
 .warranty-text-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: right;
-    background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  background-color: transparent;
 }
 
 .warranty-text {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: transparent;
-    margin-left: 40%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+  margin-left: 40%;
 }
 
 .warranty-head {
-    color: #44d62c;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.75rem;
-    font-weight: 200;
-    line-height: 1.875rem;
-    background-color: transparent;
-    text-align: left;
+  color: #44d62c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 200;
+  line-height: 1.875rem;
+  background-color: transparent;
+  text-align: left;
 }
 
 .warranty-sub {
-    color: #888;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    font-size: 1.125rem;
-    background-color: transparent;
-    text-align: left;
-    padding-top: 1%;
+  color: #888;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  background-color: transparent;
+  text-align: left;
+  padding-top: 1%;
 }
 
 
@@ -304,50 +305,50 @@
 
 
 
-  .faq-con {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .faq-test {
-    color: RGB(68, 214, 44);
-    padding: 2%;
-  }
-  
-  .test {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .faq-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 4%;
-    max-width: 62.5%;
-  }
-  
-  .faq {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(34, 34, 34);
-    width: 93%;
-    padding: 5%;
-  }
-  
-  .faq-question {
-    font-weight: bold;
-    margin-bottom: 5px;
-    background-color: rgb(34, 34, 34);
-    color: rgb(255, 255, 255);
-    font-family: "Roboto", sans-serif;
-  }
-  
-  .faq-answer {
-    margin-bottom: 10px;
-    background-color: rgb(34, 34, 34);
-    color: RGB(153, 153, 153);
-    margin-top: 5%;
-    font-family: "Roboto", sans-serif;
-  }
+.faq-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-test {
+  color: RGB(68, 214, 44);
+  padding: 2%;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+}
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 4%;
+  max-width: 62.5%;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(34, 34, 34);
+  width: 93%;
+  padding: 5%;
+}
+
+.faq-question {
+  font-weight: bold;
+  margin-bottom: 5px;
+  background-color: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+}
+
+.faq-answer {
+  margin-bottom: 10px;
+  background-color: rgb(34, 34, 34);
+  color: RGB(153, 153, 153);
+  margin-top: 5%;
+  font-family: "Roboto", sans-serif;
+}
