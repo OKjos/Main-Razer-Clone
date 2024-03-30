@@ -163,101 +163,100 @@
 
 
   /* First Body */
-  .first-body {
-    text-align: center;
-    color: white;
-    height: 40vh;
-    margin-top: -1%;
-  }
+.first-body {
+  text-align: center;
+  color: white;
+  height: 40vh;
+  margin-top: -1%;
+}
 
-  .top-body {
-    background-color: rgb(255,97,133);
-  }
+.top-body {
+  background-color: rgb(255,97,133);
+}
 
-  .Shared-header {
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    padding-top: 4%; 
-    margin-bottom: 20px;
-    font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif;    
-  }
-  
-  .Shared-sub {
-    color: white;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-family: "Roboto", sans-serif;
-  }
-  
-
-  .Shared-sub,
-  .second-sub {
-  font-size: clamp(1rem, 2vw, 1.4rem); 
+.Shared-header {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  padding-top: 4%; 
+  margin-bottom: 20px;
+  font: 700 2.25rem / 2rem "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
 }
   
+.Shared-sub {
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font: normal 1.125rem / 1.5rem Roboto;
+}
 
 
-  /* Second IMG */
-  .razer-collab-img {
-    width: 100%;
-  }
+.Shared-sub,
+.second-sub {
+font-size: clamp(1rem, 2vw, 1.4rem); 
+}
 
 
-  
-  .test-background {
-    background-color: black;
-  }
+
+/* Second IMG */
+.razer-collab-img {
+  width: 100%;
+}
+
+
+
+.test-background {
+  background-color: black;
+}
 
 
 
     /* Second IMG */
-    .second-section {
-        text-align: center;
-        background-color: black;
-    }
+.second-section {
+  text-align: center;
+  background-color: black;
+}
 
-    .second-header {
-        color: rgb(255,97,133) ;
-        font-size: clamp(6px, 10vw, 20px);
-        background-color: transparent;
-        padding-top: 4%; 
-        margin-bottom: 20px;
-        font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif;
-    }
+.second-header {
+  color: rgb(255,97,133) ;
+  font-size: clamp(6px, 10vw, 20px);
+  background-color: transparent;
+  padding-top: 4%; 
+  margin-bottom: 20px;
+  font: 700 2.25rem / 2rem "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+}
 
-    .second-sub {
-        color: rgb(154,154,154);
-        margin-top: 2%;
-        margin-bottom: 10%;
-        font-family: "Roboto", sans-serif;
-        font-size: 18px;
-    }
+.second-sub {
+  color: rgb(154,154,154);
+  margin-top: 2%;
+  margin-bottom: 10%;
+  font: normal 1.125rem / 1.5rem Roboto;
+}
 
   /* Grid IMGs */
-  .grid-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px; 
-    padding: 0 200px; 
-    background-color: black; 
-    justify-content: center;
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; 
+  padding: 0 200px; 
+  background-color: black; 
+  justify-content: center;
 }
 
 
 .grid-holders {
-    background-color: #0e0e0e; 
-    flex: 0 0 20rem;
-    min-height: 300px;
-    align-items: center;
+  background-color: #0e0e0e; 
+  flex: 0 0 20rem;
+  min-height: 300px;
+  align-items: center;
 }
  
 .grid-img {
-    max-width: 20rem;
-    min-height: 300px;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  max-width: 20rem;
+  min-height: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -269,12 +268,12 @@
 }
 
 .grind-headers {
-    color: white;
-    font-size: large;
-    text-align: start;
-    margin-left: 8%;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
+  color: white;
+  font-size: large;
+  text-align: start;
+  margin-left: 8%;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
 
 .grid-sub {
@@ -287,9 +286,9 @@
 }
 
 .grid-price {
-    color: white;
-    position: relative;
-    left: 15%;
+  color: white;
+  position: relative;
+  left: 15%;
 }
 
 .text {
@@ -304,158 +303,154 @@
 
 .bottom-right {
   align-self: flex-end;
-  right: 5%; 
+  padding-right: 2%;
   bottom: 4%;
   position: relative;
 }
 
 .bottom-right-buy {
   background-color: #44d62c;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font: normal 1.125rem / 1.5rem Roboto;
   border: none;
 }
 
-sdfsdfsdfsdfdsf
-
-
-      /* Three Symbols */
-      .three-container {
-        text-align: center;
-        margin-top: 2%;
-      }
 
 
 
-      .EXP-store {
-        background-color: transparent;
-        border: none;
-        color: rgb(68,214,44);
-        font-size: 18px;
-        margin-top: 1%;
-        font-family: "Roboto", sans-serif;
-        
-      }
-
-      .EXP-store:hover {
-        text-decoration: underline;
-        cursor: pointer;
-      }
-
-      .greater-then {
-        color: rgb(0, 190, 0);
-      }
+/* Three Symbols */
+.three-container {
+  text-align: center;
+  margin-top: 2%;
+}
 
 
-      /* Three Symbols */
-      .NBCF-img {
-        margin-top: 5%;
-        width: 100%;
-      }
 
-      .small-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        background-color: rgb(17,17,17);
-        margin-top: 2.7%;
-        margin-bottom: 2.7%;
-        width: 100%; 
-        height: 16vh; 
-        align-items: center;
-        justify-content: center; 
-        margin-top: -3px;
-        margin-bottom: 0px;
-    }
-    
-    .grid-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-    
-    .grid-buttons {
-        background-color: rgb(19, 19, 19);
-        border: none;
-        color: white;
-        position: relative; 
-        right: -3%;
-        font-family: 'Roboto', sans-serif;
-        font-size: 18px;
-    }
-    
-    .money {
-        width: 40px;
-        height: 40px;
-        vertical-align: middle;
-    }
-      /* Chroma Grid */
+.EXP-store {
+  background-color: transparent;
+  border: none;
+  color: rgb(68,214,44);
+  font-size: 18px;
+  margin-top: 1%;
+  font-family: "Roboto", sans-serif;
+  
+}
 
-      .image-container {
-        position: relative;
-        width: 100%; 
-        height: 700px; 
-        background-image: url('./AwarenessIcons/chroma-mania-signup-v3.webp');
-        background-size: cover; 
-        background-position: center;
-      }
-      
+.EXP-store:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 
-      
-      .content-container {
-        position: absolute;
-        top: 50%; 
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-      
-      .final-text-container {
-        text-align: center;
-      }
+.greater-then {
+  color: rgb(0, 190, 0);
+}
 
-      .final-header-text {
-        color: rgb(68,214,44);
-        font-family: 'RazerF5', Arial, Helvetica, sans-serif;
-        font-size: 40px;
-        top: 5%;
-        font-size: clamp(1rem, 2vw, 1.8rem);
-      }
 
-      .final-sub-text {
-        color: rgb(154,154,141);
-        font-family: 'Roboto', sans-serif;
-        font-size: 18px;
-        margin-bottom: 5%;
-      }
-      
-      .input-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
+/* Three Symbols */
+.NBCF-img {
+  margin-top: 5%;
+  width: 100%;
+}
 
-      .input-container input,
-      .input-container select {
-          width: 80%;
-          max-width: 100%;
-          height: 60px;
-          margin: 10px 0; /* Adjust the vertical margin (top and bottom) */
-          background-color: rgb(17, 17, 17);
-          color: rgb(154, 154, 154);
-          border: 1px solid rgb(154, 154, 154);
-          font-size: 16px;
-          text-indent: 3%;
-      }
+.small-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: rgb(17,17,17);
+  margin-top: 2.7%;
+  margin-bottom: 2.7%;
+  width: 100%; 
+  height: 16vh; 
+  align-items: center;
+  justify-content: center; 
+  margin-top: -3px;
+  margin-bottom: 0px;
+}
 
-      .final-submit-button {
-        background-color: rgb(68,214,44);
-        font-size: clamp(0.875rem, 1rem + 10vw ,1.25rem);
-        border: none;
-        max-width: 300px;
-        min-height: 2.5rem;
-        border-radius: 3px;
-        font-weight: 700  ;
-        margin-top: 10%;
-      }
-      
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.grid-buttons {
+  background-color: rgb(19, 19, 19);
+  border: none;
+  color: white;
+  position: relative; 
+  right: -3%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.money {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+/* Chroma Grid */
+
+.image-container {
+  position: relative;
+  width: 100%; 
+  height: 700px; 
+  background-image: url('./AwarenessIcons/chroma-mania-signup-v3.webp');
+  background-size: cover; 
+  background-position: center;
+}
+
+
+
+.content-container {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.final-text-container {
+  text-align: center;
+}
+
+.final-header-text {
+  color: rgb(68,214,44);
+  font: 700 2.25rem / 2rem "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+  top: 5%;
+}
+
+.final-sub-text {
+  color: rgb(154,154,141);
+  font: normal 1.125rem / 1.5rem Roboto;
+  margin-bottom: 5%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container input,
+.input-container select {
+  width: 80%;
+  max-width: 100%;
+  height: 60px;
+  margin: 10px 0; /* Adjust the vertical margin (top and bottom) */
+  background-color: rgb(17, 17, 17);
+  color: rgb(154, 154, 154);
+  border: 1px solid rgb(154, 154, 154);
+  font-size: 16px;
+  text-indent: 3%;
+}
+
+.final-submit-button {
+  background-color: rgb(68,214,44);
+  font-size: clamp(0.875rem, 1rem + 10vw ,1.25rem);
+  border: none;
+  max-width: 300px;
+  min-height: 2.5rem;
+  border-radius: 3px;
+  font-weight: 700  ;
+  margin-top: 10%;
+}
+
