@@ -1,0 +1,168 @@
+
+
+  /* Footer */  
+  .footer {
+    padding: 15px 0;
+    background-color: #141414;
+}
+  
+.footer-container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+  
+.footer-containerNav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+  
+.footer-containerNav div {
+    margin-right: 30px;
+}
+  
+.footer-containerNav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.footer-containerNav li {
+    margin-bottom: 20px;
+}
+  
+.footer-containerNav a { 
+    color: #9b9b9b;
+    text-decoration: none;
+    font-size: 14px;
+}
+  
+.footer-containerNav a:hover {
+    text-decoration: underline;
+}
+  
+.footer-containerNav .header-color {
+    color: #ebebeb;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.footer-containerNav h2 {
+    color: #06ff1b;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.footer-containerNav-figure {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+  
+.footer-containerNav-figure ion-icon {
+    margin-right: 10px;
+    font-size: 24px;
+}
+  
+.border {
+    border-bottom: 1px solid #555;
+    margin-bottom: 20px;
+    /* line at bottom */
+}
+  
+.footer-containerCopyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #9b9b9b;
+    
+}
+  
+.footer-containerCopyright ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;
+}
+  
+.footer-containerCopyright li {
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.footer-containerCopyright ul li:nth-child(-n + 3)::after {
+    content: "";
+    position: absolute;
+    top: 48%;
+    transform: translateY(-40%);
+    right: 20%;
+    width: 1px;
+    height: 10px;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+.footer-containerCopyright ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #ffff;
+    opacity: 0.5;
+    transition: 250ms;
+}
+  
+.unitedStates {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.unitedStates a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.6;
+    transition: 250ms;
+}
+  
+.unitedStates span {
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.media-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook {
+    cursor: pointer;
+}
+
+.facebook-button,
+.insta-button,
+.twitter-button {
+    background-color: #141414;
+    border: none;
+    margin: 0 5px; 
+}
+
+.insta {
+    cursor: pointer;
+}
+
+
+.twitter {
+    cursor: pointer;
+}
