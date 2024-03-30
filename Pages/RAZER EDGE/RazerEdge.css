@@ -166,46 +166,49 @@
 
 
   /* intro */
-  .content {
-    text-align: center;
-    background-color: black;
-    color: white;
-    margin-top: 3%;
-  }
+.content {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 3%;
+}
 
-  .ribbon {
-    background-color: rgb(201, 171, 0);
-    color: black;
-    width: 13%;
-    margin: 2% auto;
+.ribbon {
+  background-color: rgb(255,156,7);
+  color: black;
+  width: 13%;
+  margin: 2% auto;
+}
 
-  }
+.ribbon-sub {
+  font: 100 1.5rem / 1.5rem "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+}
 
-  .raze-site {
-    background-color: rgb(201, 171, 0);
-  }
+.raze-site {
+  background-color: rgb(255,156,7);
+}
 
 
   /* Video section */
 
-  .video-section {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; 
-  }
+.video-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+}
 
-  .Edge-video {
-    width: 100%;
-    height: 100vh;
-  }
+.Edge-video {
+  width: 100%;
+  height: 100vh;
+}
 
-  .snapdragon {
-    width: 100%;
-  }
+.snapdragon {
+  width: 100%;
+}
 
-  video::-webkit-media-controls {
-    display: none !important;
+video::-webkit-media-controls {
+  display: none !important;
 }
 
 .video-section video {
@@ -216,22 +219,22 @@
 
   /* SnapDragon */
 
-  .text-content {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: transparent;
-    color: white; 
-    padding: 20px; 
-    box-sizing: border-box;
-    text-align: center;
-    width: 100%;
-  }
+.text-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  color: white; 
+  padding: 20px; 
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+}
 
-  .sub-header {
-    font-size: 30px;
-    background-color: transparent;
-  }
+.sub-header {
+  font: bold 1.5rem / 1.875 Roboto;
+  background-color: transparent;
+}
 
   .smaller-text-disclaimer {
     color: gray;
@@ -345,8 +348,7 @@
 
 .header-text {
   color: RGB(68, 214, 44);
-  font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
-  font-size: 30px;
+  font: 700 4.5rem / 1 "Titillium Web", RazerF5, Arial, Helvetica, sans-serif; 
   margin-top: 5%;
   background-color: transparent;
 }
@@ -357,15 +359,14 @@
 
 .discription-text {
   color: RGB(154, 154, 154);
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font: normal 1.125rem / 1.5rem Roboto; 
   margin-top: 1%;
   background-color: transparent;
 
 }
 
 .dynamic-text {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   margin-top: 1%;
@@ -386,16 +387,19 @@
 
 .types-text {
   color: RGB(68, 214, 44);
-  font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
-  font-size: 60px;
+  font-size: 6.375rem;
+  line-height: 100px;
   margin-top: 2%;
+  font-family: RazerF5, sans-serif;
   background-color: transparent;
+  text-align: center;
 }
 
 .and-text {
-  color: RGB(154, 154, 154);
-  font-family: "Roboto", sans-serif;
-  font-size: 40px;
+  color: #5C5C5C;
+  font-size: 4.375rem;
+  line-height: 4rem;
+  font-family: RazerF5, sans-serif;
   margin-top: 1%;
   background-color: transparent;
 }
@@ -403,8 +407,7 @@
 .final-text {
   text-align: center;
   color: RGB(154, 154, 154);
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font: normal 1.125rem / 1.5rem Roboto;
   margin-top: 1%;
   background-color: transparent;
 }
@@ -442,8 +445,7 @@
 
 .header-text-last {
   color: RGB(68, 214, 44);
-  font-family: "Titillium Web", "RazerF5", Arial, Helvetica, sans-serif; 
-  font-size: 30px;
+  font: 700 3rem / 1 "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
   margin-top: 5%;
   background-color: transparent;
 }
