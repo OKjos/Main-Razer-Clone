@@ -1,272 +1,262 @@
 * {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-  }
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
 
 /* Header */
 
 .App {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .content {
-    overflow-x: hidden;
-    position: relative;
-  }
-  
-  header {
-    position: fixed;
-    top: 0;
-    background-color: black;
-    border-bottom: 2px solid green;
-    z-index: 9999 ;
-    width: 100%;
-  }
-  
-  .App-header {
-    display: flex;
-    overflow: auto;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    height: 60px;
-    width: 100%;
-  }  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
 
-  .main {
-    background-color: rgb(85,85,85);
-    line-height: 60px;
-    font-size: medium;
-    margin-left: 17%; /* 50px gap on the left */
-  }
+.content {
+  overflow-x: hidden;
+  position: relative;
+}
 
-  .siteNotification {
-    background-color: rgb(85,85,85);
-    color: white;
-    margin-top: 56px;
-    height: 6.5vh;
-    display: flex;
-    justify-content: space-between; /* Spacing between text and button */
-  }
+header {
+  position: fixed;
+  top: 0;
+  background-color: black;
+  border-bottom: 2px solid green;
+  z-index: 9999 ;
+  width: 100%;
+}
   
-  .Buy-button {
-    background-color: transparent;
-    border: none;
-    color: rgb(255, 255, 255);
-    margin-left: 3px;
-    cursor: pointer;
-    margin-right: 30%;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 8px;
-  }
-  
-  .Buy-button:hover {
-    text-decoration: underline;
-  }
-  
-  .greater-then {
-    color: white;
-    background-color: transparent;
-  }
-  
-  .shop-now-button {
-    color: white;
-    background-color: transparent;
-    border: none;
-  }
-  
-  .shop-now-button:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
-  .cta-links button:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
-  .header-button {
-    background-color: black;
-    border: none;
-    color: rgb(88, 88, 88);
-    font-size: 16px;
-    width: 60px;
-    cursor: pointer;
-    margin: 0 32px;
-  }
-  
-  .header-button:hover {
-    color: #ffffff;
-  }
-  
-  .logo-container {
-    border: none;
-    background-color: black;
-  }
-  
-  .logo {
-    width: 35px;
-    margin-left: -50px;
-    position: absolute;
-  }
-  
-  .logo:hover {
-    cursor: pointer;
-  }
-  
-  .search-icon:hover {
-    cursor: pointer;
-  }
-  
-  .search-button {
-    background-color: black;
-    border: none;
-  }
-  
-  .search-icon {
-    margin-top: 20px;
-    width: 20px;
-    margin-left: 30px;
-  }
-  
-  .cart-icon {
-    width: 20px;
-    margin-left: 70px;
-  }
-  
-  .cart-button {
-    background-color: black;
-    border: none;
-  }
-  
-  .cart-icon:hover {
-    cursor: pointer;
-  }
+.App-header {
+  display: flex;
+  overflow: auto;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  height: 60px;
+  width: 100%;
+}  
 
+.main {
+  background-color: rgb(85,85,85);
+  line-height: 60px;
+  font-size: medium;
+  margin-left: 17%; /* 50px gap on the left */
+}
 
-  /*  Top IMG */
+.siteNotification {
+  background-color: rgb(85,85,85);
+  color: white;
+  margin-top: 56px;
+  height: 6.5vh;
+  display: flex;
+  justify-content: space-between; /* Spacing between text and button */
+}
+  
+.Buy-button {
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  margin-left: 3px;
+  cursor: pointer;
+  margin-right: 30%;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+}
 
-  .home-chair-img {
-    width: 100%;
-  }
+.Buy-button:hover {
+  text-decoration: underline;
+}
+  
+.greater-then {
+  color: white;
+  background-color: transparent;
+}
+
+.shop-now-button {
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+
+.shop-now-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cta-links button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+  
+.header-button {
+  background-color: black;
+  border: none;
+  color: rgb(88, 88, 88);
+  font-size: 16px;
+  width: 60px;
+  cursor: pointer;
+  margin: 0 32px;
+}
+
+.header-button:hover {
+  color: #ffffff;
+}
+
+.logo-container {
+  border: none;
+  background-color: black;
+}
+  
+.logo {
+  width: 35px;
+  margin-left: -50px;
+  position: absolute;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.search-icon:hover {
+  cursor: pointer;
+}
+
+.search-button {
+  background-color: black;
+  border: none;
+}
+
+.search-icon {
+  margin-top: 20px;
+  width: 20px;
+  margin-left: 30px;
+}
+  
+.cart-icon {
+  width: 20px;
+  margin-left: 70px;
+}
+
+.cart-button {
+  background-color: black;
+  border: none;
+}
+
+.cart-icon:hover {
+  cursor: pointer;
+}
 
 
-    /*  RAZER FUJIN IMG */
+/*  Top IMG */
 
-  .main-text {
-    text-align: center;
-  }
-
-  .fujin-title {
-    color: white;
-    font-family: "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    margin-top: 2%;
-  }
-
-  .fujin-flex {
-    color: #44D62C;
-    font-size: clamp(1rem, 1.9rem + 2vw, 2.8125rem); 
-    font-family: "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
-    margin-top: 1%;
-  }
-
-  .discription-main-text {
-    color: #9A9A9A;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    margin-top: 1%;
-  }
-
-  .durable-text {
-    color: #44D62C;
-    font-family: "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
-    font-size: 35px;
-    margin-top: 5%;
-  }
-
-  .airflow-text {
-    color: white;
-    font-size: 24px;
-    font-family: "Roboto", sans-serif;
-    margin-top: 1%;
-  }
+.home-chair-img {
+  width: 100%;
+}
 
 
-    /* Ultra durable IMG */
-    .ultra-durable-img {
-      width: 100%;
-      margin-top: 2%;
-    }
+  /*  RAZER FUJIN IMG */
+
+.main-text {
+  text-align: center;
+}
+
+.fujin-title {
+  color: white;
+  font-family: "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  margin-top: 2%;
+}
+
+.fujin-flex {
+  color: #44D62C;
+  font: 700 2rem / 1 "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+  margin-top: 1%;
+}
+
+.discription-main-text {
+  color: #9A9A9A;
+  font: normal 1.125rem / 1.5rem Roboto;
+  margin-top: 1%;
+}
+
+.durable-text {
+  color: #44D62C;
+  font: 700 3rem / 1 "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+  margin-top: 5%;
+}
+
+.airflow-text {
+  color: white;
+  font: bold 1.125rem / 1.5 Roboto;
+  margin-top: 1%;
+}
+
+
+/* Ultra durable IMG */
+.ultra-durable-img {
+  width: 100%;
+  margin-top: 2%;
+}
 
 
   /* SYNCHRO-TILT Text */
-  .tilt-discription {
-    text-align: center;
-  }
+.tilt-discription {
+  text-align: center;
+}
 
-  .synchro-text {
-    color: #44D62C;
-    font-family: "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
-    font-size: 43px;
-    margin-top: 3%;
-  }
+.synchro-text {
+  color: #44D62C;
+  font: 700 1.75rem / 1 "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+  margin-top: 3%;
+}
 
-  .dynamic-text {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 24px;
-    margin-top: 1%;
-  }
+.dynamic-text {
+  color: white;
+  font: bold 1.5rem / 1.875rem Roboto;
+  margin-top: 1%;
+}
 
-  .reclining-discription-text {
-    color: #9A9A9A;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    margin-top: 1%;
-  }
+.reclining-discription-text {
+  color: #9A9A9A;
+  font: normal 1.125rem / 1.5rem Roboto;
+  margin-top: 1%;
+}
 
   /* Tilt IMG */
-  .tilt-img {
-    width: 100%;
-    margin-top: 2%;
-  }
+.tilt-img {
+  width: 100%;
+  margin-top: 2%;
+}
 
-  /* Adjustable Text */
-  .adjustable-support-container {
-    text-align: center;
-    margin-top: 5%;
-  }
+/* Adjustable Text */
+.adjustable-support-container {
+  text-align: center;
+  margin-top: 5%;
+}
 
-  .adjustable-header {
-    color: #44D62C;
-    font-family: "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
-    font-size: 43px;
-  }
+.adjustable-header {
+  color: #44D62C;
+  font: 700 3rem / 1 "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+}
 
-  .adjustable-posture {
-    color: white;
-    font-size: 24px;
-    font-family: "Roboto", sans-serif;
-    margin-top: 1%;
-  }
+.adjustable-posture {
+  color: white;
+  font: bold 1.5rem / 1.875 Roboto;
+  margin-top: 1%;
+}
 
-  .adjustable-sub {
-    color: #9A9A9A;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    margin-top: 1%;
-  }
+.adjustable-sub {
+  color: #9A9A9A;
+  font: normal 1.125rem / 1.5rem Roboto;
+  margin-top: 1%;
+}
 
-  .adjustable-img {
-    width: 100%;
-    margin-top: 3%;
-  }
+.adjustable-img {
+  width: 100%;
+  margin-top: 3%;
+}
   
 
 
@@ -290,58 +280,58 @@
 
 
 
-  .img-grid-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px; 
-    padding: 0 200px; 
-    background-color: black; 
-    justify-content: center;
-    margin-top: 5%;
-  }
-
-  .image-item {
-    flex: 0 0 20rem;
-    min-height: 300px;
-    align-items: center;
-  }
-
-/* Style the images */
-  .image-item img {
-    max-width: 100%;
-    height: auto;
-  }
-
-/* Style the captions */
-  .image-item p {
-    margin: 15px 0;
-  }
-
-
-  .three-img-title {
-    color: #44D62C;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 24px;
-    line-height: 1;
-    margin-top: 5%;
-  }
-
-  .three-img-title p {
-    margin: 0; 
-    padding: 0; 
+.img-grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; 
+  padding: 0 200px; 
+  background-color: black; 
+  justify-content: center;
+  margin-top: 5%;
 }
 
-  .second-discription {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-  }
+.image-item {
+  flex: 0 0 20rem;
+  min-height: 300px;
+  align-items: center;
+}
 
-  .three-img-discription {
-    color: #9A9A9A;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-  }
+/* Style the images */
+.image-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style the captions */
+.image-item p {
+  margin: 15px 0;
+}
+
+
+.three-img-title {
+  color: #44D62C;
+  font: 700 1.5rem / 1.5rem "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+  line-height: 1;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.three-img-title p {
+  margin: 0; 
+  padding: 0; 
+}
+
+.second-discription {
+  color: white;
+  font: normal 1.125rem / 1.5rem Roboto;
+  text-align: center;
+}
+
+.three-img-discription {
+  color: #9A9A9A;
+  font: normal 1.125rem / 1.5rem Roboto;
+  text-align: center;
+}
 
 
 
@@ -365,32 +355,30 @@
   
 
   /* we've got you covered */
-  .covered-container {
-    text-align: center;
-  }
+.covered-container {
+  text-align: center;
+}
 
-  .covered-header {
-    color: #44D62C;
-    font-size: 44px;
-    font-family: "Titillium Web", sans-serif;
-  }
+.covered-header {
+  color: #44D62C;
+  font: 700 3rem / 1 "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+}
 
-  .covered-sub {
-    color: #9A9A9A;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    margin-top: 1%;
-  }
+.covered-sub {
+  color: #9A9A9A;
+  font: normal 1.125rem / 1.5rem Roboto;
+  margin-top: 1%;
+}
 
 
   /* Final area */
-  .final-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px; 
-    padding: 0 200px; 
-    background-color: black; 
-    justify-content: center;
+.final-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; 
+  padding: 0 200px; 
+  background-color: black; 
+  justify-content: center;
 }
 
   /* flex-wrap: wrap; */
@@ -417,14 +405,12 @@
 
 .main-war-text {
   color: #44D62C;
-  font-size: 36px;
-  font-family: "Titillium Web", sans-serif;
+  font: 700 2.25rem / 2rem "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
 }
 
 .sub-war-text {
   color: #9A9A9A;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font: normal 1.125rem / 1.5rem Roboto;
   margin-top: 1%;
 }
 
